@@ -8,7 +8,7 @@ Cada Actividad contiene:
 ### Relación de Actividades:
 1. [Hola Erizo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/01_HolaErizo)
 2. [Hacemos un Semáforo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/02_Hacemos_un_semaforo)
-3. Pulsadores
+3. [Pulsadores](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/03_Pulsadores)
 4. Sensor de luz
 5. Modo MkMk
 6. Control luminosidad LED

@@ -7,4 +7,4 @@ Cada Actividad contiene:
 
 Relación de Actividades:
 1. [Hola Erizo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/01_HolaErizo)
-2. Hacemos un semaforo
+2. [Hacemos un semaforo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/02_Hacemos_un_semaforo)

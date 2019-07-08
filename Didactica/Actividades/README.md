@@ -2,7 +2,7 @@
 Actividades para trabajar con EchidnaShield en el aula
 
 Cada Actividad contiene:
-- Presentacion en PDF
+- Presentación en diapositivas en formato PDF
 - Ejemplo de proyecto en formato xml para Snap4Arduino
 
 Relación de Actividades:

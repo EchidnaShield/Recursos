@@ -9,7 +9,7 @@ Material de los talleres impartidos
 ## Electronica
 Esquemas electrónicos
 ## Diseños3D
-Diseños 3D para impresión
+[Diseños para impresión 3D](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D)
 ## Programas y Aplicaciones
 [Programas y aplicaciones varios](https://github.com/EchidnaShield/Recursos/tree/master/Programas_y_Aplicaciones)
 ## Licencia

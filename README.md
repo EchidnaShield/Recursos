@@ -3,7 +3,7 @@ Repositorio con recursos de Echidna
 ## Didáctica
 
 ### Actividades
-Actividades para trabajar con Echidna en el aula
+[Actividades para trabajar con Echidna en el aula](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades)
 ### Talleres
 Material de los talleres impartidos
 ## Electronica

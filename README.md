@@ -13,3 +13,4 @@ Diseños 3D para impresión
 ## Programas y Aplicaciones
 Programas y aplicaciones varios
 ## Licencia
+Todos los contenidos pertenecen a Echidna Educación, han sido desarrollados por Jorge Lobo, Xabier Rosas y Jose Pujol, y se distribuyen bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)

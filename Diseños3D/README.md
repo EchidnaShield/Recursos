@@ -18,7 +18,8 @@ Echidna Logo Keyrings and Pins ready to print.
 An Arduino Uno based printbot, designed to fit under EchidnaShield. 
 
 ## PrintBoat Jorge
-[PrintBoat Jorge](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat):Convierte el  PrintBot UNO en un barco
+[PrintBoat Jorge](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat):Convierte el  PrintBot UNO en un barco.
+
 Turn the PrintBot UNO into a boat. 
 
 ## Aplique para laser torreta el tito Manolo

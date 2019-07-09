@@ -9,8 +9,8 @@ Cada Actividad contiene:
 1. [Hola Erizo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/01_HolaErizo)
 2. [Hacemos un Semáforo](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/02_Hacemos_un_semaforo)
 3. [Pulsadores](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/03_Pulsadores)
-4. Sensor de luz
-5. Modo MkMk
+4. [Sensor de luz](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/04_SensordeLuz)
+5. [Modo MkMk](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/05_ModoMkMk)
 6. Control luminosidad LED
 7. Telesketch
 8. Colores RGB

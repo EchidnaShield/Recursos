@@ -11,7 +11,7 @@ Carcasas protección del escudo y la placa
 
 Echidna Logo Keyrings and Pins ready to print. 
 
-## [PrintBot UNO:](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Printbot)
+## [PrintBot UNO](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Printbot)
 
  Un printbot basado en Arduino Uno diseñado para utilizar con EchidnaShield.
 

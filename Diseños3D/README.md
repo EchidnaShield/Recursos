@@ -2,7 +2,7 @@
 Diseños 3D para ser impresos
 
 ## Carcasas EchidnaShield
-Carcasas protección del escudo y la placa
+Carcasas de protección del escudo y la placa
 
 ## Caja para Echidna
 

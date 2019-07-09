@@ -12,4 +12,4 @@ Modo de funcionamiento con EchidnaShield que se asemeja a un Escornabot programa
 
 ## Joystick
 [joystick.xml](https://github.com/EchidnaShield/Recursos/blob/master/Programas_y_Aplicaciones/joystick.xml)
-Programa para comprobar el funcionamiento del joystick
+Programa para comprobar el funcionamiento del joystick con Snap4Arduino

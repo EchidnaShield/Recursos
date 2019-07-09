@@ -2,7 +2,7 @@
 Repositorio con recursos de Echidna Educacion
 [www.echidna.es](http://echidna.es/)
 
-<img src="Logos/echidna_logo_L.jpg" width="400" align="center">
+<img src="Logos/echidna_logo_L.jpg" width="300" align="right">
 
 ## Didáctica
 ### Actividades

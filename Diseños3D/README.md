@@ -17,6 +17,8 @@ Echidna Logo Keyrings and Pins ready to print.
 
 An Arduino Uno based printbot, designed to fit under EchidnaShield. 
 
+<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/printbot_view2.jpg" height="150"/> </p>
+
 ## PrintBoat
 [PrintBoat](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat): Convierte el  PrintBot UNO en un barco.
 

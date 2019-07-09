@@ -1,0 +1,78 @@
+//!OpenSCAD
+
+rotate([180, 180, 180]){
+  translate([-37, -29, 0]){
+    difference() {
+      // Arduino Base
+      union(){
+        translate([0, -0.5, 0]){
+          difference() {
+            translate([2, 2, 0]){
+              color([1,0.8,0]) {
+                cube([71, 55, 5], center=false);
+              }
+            }
+
+            translate([2.75, 2.75, 2]){
+              color([1,0.4,0.4]) {
+                cube([69.5, 53.5, 3], center=false);
+              }
+            }
+            translate([3.25, 3.25, 0]){
+              color([1,0.4,0.4]) {
+                cube([68.5, 52.5, 4], center=false);
+              }
+            }
+          }
+        }
+        translate([0, -0.5, 0]){
+          difference() {
+            translate([2, 2, 0]){
+              color([1,0.8,0]) {
+                cube([70, 55, 0.5], center=false);
+              }
+            }
+
+            translate([7.75, 7.75, 0]){
+              color([1,0.4,0.4]) {
+                cube([60, 45, 0.5], center=false);
+              }
+            }
+          }
+        }
+        translate([72, 25, 0]){
+          cube([5, 10, 1], center=false);
+        }
+        union(){
+          color([1,0.8,0]) {
+            translate([17, 5, 0]){
+              cylinder(r1=1.2, r2=1.2, h=6.5, center=false);
+            }
+          }
+          color([1,0.8,0]) {
+            translate([18, 53.2, 0]){
+              cylinder(r1=1.2, r2=1.2, h=6.5, center=false);
+            }
+          }
+          color([1,0.8,0]) {
+            translate([69, 38.2, 0]){
+              cylinder(r1=1.2, r2=1.2, h=6.5, center=false);
+            }
+          }
+          color([1,0.8,0]) {
+            translate([69, 10, 0]){
+              cylinder(r1=1.2, r2=1.2, h=6.5, center=false);
+            }
+          }
+        }
+        translate([35.5, -3, 0]){
+          cube([4, 64, 1], center=false);
+        }
+      }
+
+      translate([-3, 21, 0]){
+        cube([20, 16, 1], center=false);
+      }
+    }
+  }
+}

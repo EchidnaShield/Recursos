@@ -1,0 +1,224 @@
+//!OpenSCAD
+
+difference() {
+  union(){
+    difference() {
+      difference() {
+        translate([0, 0, -1.5]){
+          cylinder(r1=50, r2=50, h=20, center=true);
+        }
+
+        translate([0, 0, 0]){
+          cylinder(r1=50, r2=50, h=20, center=true);
+        }
+      }
+
+      translate([-40, 33, -15]){
+        cube([80, 20, 10], center=false);
+      }
+      translate([-40, -53, -15]){
+        cube([80, 20, 10], center=false);
+      }
+    }
+    difference() {
+      difference() {
+        translate([7, 0, -1.5]){
+          cube([58, 65, 20], center=true);
+        }
+
+        translate([8, 0, 0]){
+          cube([100, 62, 20], center=true);
+        }
+      }
+
+      union(){
+        translate([0, -2.5, 0]){
+          union(){
+            translate([0, 50, 0]){
+              rotate([90, 0, 0]){
+                cylinder(r1=25, r2=25, h=5, center=true);
+              }
+            }
+            color([0,0,0]) {
+              translate([0, 50, 0]){
+                rotate([90, 0, 0]){
+                  // torus
+                  rotate_extrude($fn=50) {
+                    translate([25, 0, 0]) {
+                      circle(r=1.25, $fn=16);
+                    }
+                  }
+                }
+              }
+            }
+            translate([-12, 5, -10]){
+              union(){
+                // Servo
+                color([0,0,0]) {
+                  cube([40, 30, 20], center=false);
+                }
+                // Servo
+                color([0,0,0]) {
+                  translate([-8, 30, 0]){
+                    cube([55, 2, 20], center=false);
+                  }
+                }
+                // Servo
+                color([0,0,0]) {
+                  translate([0, 30, 0]){
+                    cube([40, 11, 20], center=false);
+                  }
+                }
+                // Servo
+                color([0,0,0]) {
+                  translate([12, 40, 10]){
+                    rotate([90, 0, 0]){
+                      cylinder(r1=3, r2=3, h=10, center=true);
+                    }
+                  }
+                }
+                color([1,1,0.2]) {
+                  translate([44, 30, 15]){
+                    rotate([90, 0, 0]){
+                      cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                    }
+                  }
+                }
+                color([1,1,0.2]) {
+                  translate([44, 30, 5]){
+                    rotate([90, 0, 0]){
+                      cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                    }
+                  }
+                }
+                color([1,1,0.2]) {
+                  translate([-5, 30, 15]){
+                    rotate([90, 0, 0]){
+                      cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                    }
+                  }
+                }
+                color([1,1,0.2]) {
+                  translate([-5, 30, 5]){
+                    rotate([90, 0, 0]){
+                      cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        translate([-12, -2.5, 10]){
+          rotate([180, 0, 0]){
+            union(){
+              // Servo
+              color([0,0,0]) {
+                cube([40, 30, 20], center=false);
+              }
+              // Servo
+              color([0,0,0]) {
+                translate([-8, 30, 0]){
+                  cube([55, 2, 20], center=false);
+                }
+              }
+              // Servo
+              color([0,0,0]) {
+                translate([0, 30, 0]){
+                  cube([40, 11, 20], center=false);
+                }
+              }
+              // Servo
+              color([0,0,0]) {
+                translate([12, 40, 10]){
+                  rotate([90, 0, 0]){
+                    cylinder(r1=3, r2=3, h=10, center=true);
+                  }
+                }
+              }
+              color([1,1,0.2]) {
+                translate([44, 30, 15]){
+                  rotate([90, 0, 0]){
+                    cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                  }
+                }
+              }
+              color([1,1,0.2]) {
+                translate([44, 30, 5]){
+                  rotate([90, 0, 0]){
+                    cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                  }
+                }
+              }
+              color([1,1,0.2]) {
+                translate([-5, 30, 15]){
+                  rotate([90, 0, 0]){
+                    cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                  }
+                }
+              }
+              color([1,1,0.2]) {
+                translate([-5, 30, 5]){
+                  rotate([90, 0, 0]){
+                    cylinder(r1=2.5, r2=2.5, h=10, center=true);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // Battery Bracket
+    difference() {
+      union(){
+        translate([-41, 0, 4]){
+          cube([30, 15, 31], center=true);
+        }
+        translate([-41, 0, 20]){
+          sphere(r=7);
+        }
+      }
+
+      color([0.2,0.4,1]) {
+        translate([-41, 0, 4]){
+          cube([27, 100, 27], center=true);
+        }
+      }
+      translate([-30, 0, 5]){
+        rotate([0, 90, 0]){
+          cylinder(r1=1.6, r2=1.6, h=10, center=true);
+        }
+      }
+    }
+  }
+
+  translate([-37.925, 29.725, -9.75]){
+    scale([1.025, 1.025, 1.025]){
+      rotate([0, 180, 180]){
+        difference() {
+          // Arduino Base
+          union(){
+            translate([0, -0.5, 0]){
+              difference() {
+                translate([2, 2, 0]){
+                  color([1,0.8,0]) {
+                    cube([70, 55, 3.5], center=false);
+                  }
+                }
+
+              }
+            }
+            translate([72, 25, 0]){
+              cube([5, 10, 1], center=false);
+            }
+            translate([35, -3, 0]){
+              cube([5, 64, 1], center=false);
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

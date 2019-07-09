@@ -28,7 +28,7 @@ Convierte el  PrintBot UNO en un barco.
 
 Turn the PrintBot UNO into a boat. 
 
-<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" height="150"/> </p>
+[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" height="150"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/)
 ## Aplique para laser torreta el tito Manolo
 
 

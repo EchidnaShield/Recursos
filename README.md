@@ -2,6 +2,8 @@
 Repositorio con recursos de Echidna Educacion
 [www.echidna.es](http://echidna.es/)
 
+<img src="Logos/echidna_logo_L.jpg" width="400" align="center">
+
 ## Didáctica
 ### Actividades
 [Actividades para trabajar con Echidna en el aula](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades)

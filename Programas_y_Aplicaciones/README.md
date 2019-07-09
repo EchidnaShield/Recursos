@@ -9,3 +9,7 @@ Directorios con programas y aplicaciones para ser usados con Echidna
 ## Escornabot Mode
 [Escornabot Mode](https://github.com/EchidnaShield/Recursos/blob/master/Programas_y_Aplicaciones/EscornabotMode/EscornabotMode.ino)
 Modo de funcionamiento con EchidnaShield que se asemeja a un Escornabot programando los movimientos con el joystick
+
+## Joystick
+[joystick.xml](https://github.com/EchidnaShield/Recursos/blob/master/Programas_y_Aplicaciones/joystick.xml)
+Programa para comprobar el funcionamiento del joystick

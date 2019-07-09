@@ -11,9 +11,9 @@ Cada Actividad contiene:
 3. [Pulsadores](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/03_Pulsadores)
 4. [Sensor de luz](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/04_SensordeLuz)
 5. [Modo MkMk](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/05_ModoMkMk)
-6. Control luminosidad LED
-7. Telesketch
-8. Colores RGB
-9. Acelerometro
+6. [Control luminosidad LED](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/06_ControlLuminosidadLED)
+7. [Telesketch](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/07_Telesketch)
+8. [Colores RGB](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/08_ColoresRGB)
+9. [Acelerometro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/09_Acelerometro)
 10. Robot
 

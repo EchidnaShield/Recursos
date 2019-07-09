@@ -12,8 +12,8 @@ Echidna Logo Keyrings and Pins ready to print/Llaveros y pines con el logo de Ec
 [link](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Keyrings%20and%20pins)
 
 ## PrintBot UNO
-_An Arduino Uno based printbot, designed to fit under EchidnaShield_
-_Un printbot basado en Arduino Uno diseñado para utilizar con EchidnaShield_
+An Arduino Uno based printbot, designed to fit under EchidnaShield.
+Un printbot basado en Arduino Uno diseñado para utilizar con EchidnaShield.
 
 [link](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Printbot)
 

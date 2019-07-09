@@ -11,7 +11,7 @@ Carcasas protección del escudo y la placa
 
 Echidna Logo Keyrings and Pins ready to print. 
 
-|![Llavero 1](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring.jpg) |![Llavero 2](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring2.jpg) |![Pin](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_pin.jpg)|
+|<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring.jpg" height="150"/> </p> |<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring2.jpg" height="150"/> </p>|<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_pin.jpg" height="150"/> </p>|
 | ----- | ----- | ----- |
 
 

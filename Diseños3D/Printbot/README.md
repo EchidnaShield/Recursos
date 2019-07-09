@@ -1,4 +1,4 @@
-# Printbot
+# Printbot UNO
 
 | Printbot Preview 1| Printbot Preview 2|
 | ----- | ---- |

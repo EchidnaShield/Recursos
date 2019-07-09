@@ -6,10 +6,14 @@ Carcasas protección del escudo y la placa
 
 ## Caja para Echidna
 
-## Echidna Logo Keyrings and Pins
-[Llaveros y pines](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Keyrings%20and%20pins) con el logo de Echidna listos para imprimir
+## [Llaveros y pines](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Keyrings%20and%20pins)
+ Llaveros y pinescon el logo de Echidna listos para imprimir
 
 Echidna Logo Keyrings and Pins ready to print. 
+
+|![Llavero 1](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring.jpg) |![Llavero 2](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring2.jpg) |![Pin](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_pin.jpg)|
+| ----- | ----- | ----- |
+
 
 ## [PrintBot UNO](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Printbot)
 
@@ -19,8 +23,8 @@ An Arduino Uno based printbot, designed to fit under EchidnaShield.
 
 <img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/printbot_view2.jpg" height="150"/> </p>
 
-## PrintBoat
-[PrintBoat](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat): Convierte el  PrintBot UNO en un barco.
+## [PrintBoat](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat)
+Convierte el  PrintBot UNO en un barco.
 
 Turn the PrintBot UNO into a boat. 
 

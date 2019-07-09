@@ -22,7 +22,7 @@ An Arduino Uno based printbot, designed to fit under EchidnaShield.
 
 Turn the PrintBot UNO into a boat. 
 
-<img src="https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" high="250"/> </p>
+<img src="https://raw.githubusercontent.com/EchidnaShield/Recursos/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" high="250"/> </p>
 ## Aplique para laser torreta el tito Manolo
 
 

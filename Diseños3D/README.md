@@ -39,6 +39,6 @@ Turn the PrintBot UNO into a boat.
 
 ## Soportes para mantener EchidnaShield a 90º
 
-Sopoerte Izquierdo
-<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Soportes_90%C2%BA/soportes_E.jpg" height="200"/> </p>(https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Soportes_90%C2%BA)
+
+[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Soportes_90%C2%BA/soportes_E.jpg" height="200"/> </p>](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Soportes_90%C2%BA)
 

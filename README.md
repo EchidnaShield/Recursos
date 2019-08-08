@@ -11,7 +11,7 @@ Repositorio con recursos de Echidna Educacion
 [Material de los talleres impartidos](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Talleres)
 
 ## Electronica
-[Esquemas electrónicos] (https://github.com/EchidnaShield/Recursos/tree/master/electronica)
+[Esquemas electrónicos](https://github.com/EchidnaShield/Recursos/tree/master/electronica)
 
 ## Diseños3D
 [Diseños para impresión 3D](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D)

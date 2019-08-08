@@ -10,7 +10,7 @@ Carcasas y cajas de protecci√≥n del escudo y la placa
 ## [Llaveros y pines](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Keyrings%20and%20pins)
  Llaveros y pinescon el logo de Echidna listos para imprimir
 
-Echidna Logo Keyrings and Pins ready to print. 
+Echidna Logo Keyrings and Pins ready to print.
 
 |[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring.jpg" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/) |[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_keyring2.jpg" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/)|[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/Echidna_pin.jpg" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Keyrings%20and%20pins/)|
 | ----- | ----- | ----- |
@@ -20,7 +20,7 @@ Echidna Logo Keyrings and Pins ready to print.
 
  Un printbot basado en Arduino Uno dise√±ado para utilizar con EchidnaShield.
 
-An Arduino Uno based printbot, designed to fit under EchidnaShield. 
+An Arduino Uno based printbot, designed to fit under EchidnaShield.
 
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/printbot_view2.jpg" height="150"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/)
 
@@ -31,13 +31,15 @@ Turn the PrintBot UNO into a boat.
 
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" height="150"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/)
 
-## Modificaciones para laser en la torreta "eltitomanolo"
+## [Modificaciones para laser en la torreta](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Torreta)|[eltitomanolo](https://www.thingiverse.com/eltitomanolo/about)
 
+[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Torreta.jpg height="200"/> </p>](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Torreta)
 
 [Pan tilt head El Tito Manolo](https://www.thingiverse.com/thing:2467743)
 
 
-## Soportes para mantener EchidnaShield a 90∫
+## [Soportes para mantener EchidnaShield a 90∫](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Soportes_90%C2%BA)
+
 
 
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Soportes_90%C2%BA/soportes_E.jpg" height="200"/> </p>](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Soportes_90%C2%BA)

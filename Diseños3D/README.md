@@ -1,8 +1,11 @@
 # Diseños 3D
 Diseños 3D para ser impresos
 
-## Carcasas
+## [Carcasas](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Carcasas)
 Carcasas y cajas de protección del escudo y la placa
+
+|[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/TapaShield/Echidnalogo.png" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/TapaShield/Tapa_logo.stl) |[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/TapaShield/tapanombre.png" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/TapaShield/tapa_nombre.stl)|   |
+| ----- | ----- | ----- |
 
 ## [Llaveros y pines](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Keyrings%20and%20pins)
  Llaveros y pinescon el logo de Echidna listos para imprimir

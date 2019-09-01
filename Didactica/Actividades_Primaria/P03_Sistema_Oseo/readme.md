@@ -16,7 +16,7 @@
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_Primaria/P03_Sistema_Oseo/Video.png" height=250px>](https://www.youtube.com/watch?v=9v9mQy2Yz5U&feature=youtu.be)
 
 ## Ficha de trabajo
-Ficha de trabajo para el alumno (To Do)
+[Ficha de trabajo para el alumno](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_Primaria/P03SistemaOseo.pdf)
 
 ## Soluciones propuestas
 [Ejercicio 1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_Primaria/P03_Sistema_Oseo/Ejercicio1.xml)

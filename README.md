@@ -6,9 +6,7 @@ Repositorio con recursos de Echidna Educacion
 
 ## Didáctica
 ### Primaria Actividades 
-[Actividades para trabajar con Echidna en Educación Primaria]
-(https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_Primaria)
-
+[Actividades para trabajar con Echidna en Educación Primaria](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_Primaria)
 ### Secundaria Actividades 
 [Actividades para trabajar con Echidna en Educación Secundaria](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades)
 ### Talleres

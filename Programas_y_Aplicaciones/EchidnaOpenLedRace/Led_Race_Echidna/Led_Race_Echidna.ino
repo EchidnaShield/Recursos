@@ -22,7 +22,7 @@
  https://www.hackster.io/gbarbarov/open-led-race-a0331a
  https://twitter.com/openledrace
 
-Adaptación para EchidnaShield (Arduino Nano / Leonardo) XDeSIG.
+Adaptación para EchidnaShield (Arduino Uno / Leonardo) XDeSIG.
 
 */
 

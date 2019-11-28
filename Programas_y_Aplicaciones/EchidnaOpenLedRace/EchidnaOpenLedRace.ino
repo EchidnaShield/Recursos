@@ -1,4 +1,5 @@
-/*  
+
+ /*  
  * ____                     _      ______ _____    _____
   / __ \                   | |    |  ____|  __ \  |  __ \               
  | |  | |_ __   ___ _ __   | |    | |__  | |  | | | |__) |__ _  ___ ___ 
@@ -23,7 +24,12 @@
  https://twitter.com/openledrace
 
 Adaptación para EchidnaShield (Arduino Uno / Leonardo) XDeSIG.
+Compatible con modo MkMk (D2 y D3)
 
+Nota: para usar D4 y D7 cambiar el modo de las entradas a: 
+pinMode(PIN_P1,INPUT_PULLUP);
+pinMode(PIN_P2,INPUT_PULLUP);
+Ya que D2 y D3 tienen Pull-up externas
 */
 
                                                             
@@ -97,8 +103,10 @@ void set_loop(byte H,byte a,byte b,byte c)
 void setup() {
   for(int i=0;i<NPIXELS;i++){gravity_map[i]=127;};
   track.begin(); 
-  pinMode(PIN_P1,INPUT_PULLUP); //INPUT_PULLUP
-  pinMode(PIN_P2,INPUT_PULLUP);
+//****Nota: Para usar D4 y D7 cambiar el modo de las entradas a: pinMode(PIN_P1,INPUT_PULLUP);
+//                                                               pinMode(PIN_P2,INPUT_PULLUP);
+  pinMode(PIN_P1,INPUT); 
+  pinMode(PIN_P2,INPUT);
   pinMode(PIN_LED_R,OUTPUT);
   pinMode(PIN_LED_O,OUTPUT);      
   pinMode(PIN_LED_G,OUTPUT);

@@ -1,5 +1,5 @@
 /*
-  Gamepad con EchidnaShield y Arduino Leonardo por Jorge Lobo @lobo_tic para www.echidna.es
+  Gamepad con EchidnaShield y Arduino Leonardo o Echidna White por Jorge Lobo @lobo_tic para www.echidna.es
   Modo Joystick y modo Acelerómetro. El modo acelerómetro está desactivado por defecto.
 
   Modo Joystick:      Modo Acelerómetro:

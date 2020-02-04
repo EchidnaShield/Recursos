@@ -1,0 +1,69 @@
+/* Piano multisensorial para EchidnaShield. Las entradas analógicas y D2 y D3 actúan como interruptores 
+que se cierran al tocarlos una persona conectada al conector señalado con una figura humana del escudo. 
+Para un correcto funcionamiento, el conmutador  Select debe encontrarse en la posición MKMK */
+
+void setup(){
+// Configuramos los pines analógicos desde A0 hasta A5 y las digitales D2 y D3 como entradas.     
+    pinMode(A0,INPUT);
+    
+    pinMode(A1,INPUT);
+    pinMode(A2,INPUT);
+    pinMode(A3,INPUT);
+    pinMode(A4,INPUT);
+    pinMode(A5,INPUT);
+    pinMode(2,INPUT);
+    pinMode(3,INPUT);
+// Configuramos el pin D1o, que en el escudo corresponde al buzzer como salida
+    pinMode(10,OUTPUT);
+}
+
+//Siempre que la lectura en una de las entradas analógicas sea mayor de 300, se activa un tono definido en el buzzer durante 0,5 segundos
+//La resistencia corporal de cada persona es ditinta y puede variar debido a diversos factores.
+//Si con pudiese activarse con el valor 300, puede cambiarse por uno menor.
+//Siempre que la lectura en una de las entradas digitales sea alta, se activa un tono en el buzzer durante 0,5 segundos
+void loop(){
+    
+    if((300) < (analogRead(A0))){
+        tone(10,262,500); // write to buzzer
+        delay(500);
+    }
+    if((300) < (analogRead(A1))){
+        tone(10,294,500); // write to buzzer
+        delay(500);
+    }
+    if((300) < (analogRead(A2))){
+        tone(10,330,500); // write to buzzer
+        delay(500);
+    }
+    if((300) < (analogRead(A3))){
+        tone(10,349,500); // write to buzzer
+        delay(500);
+    }
+    if((300) < (analogRead(A4))){
+        tone(10,392,500); // write to buzzer
+        delay(500);
+    }
+    if((300) < (analogRead(A5))){
+        tone(10,440,500); // write to buzzer
+        delay(500);
+    }
+    if(((digitalRead(2))==(1))){
+        tone(10,494,500); // write to buzzer
+        delay(500);
+    }
+    if(((digitalRead(3))==(1))){
+        tone(10,523,500); // write to buzzer
+        delay(500);
+    }
+    
+    _loop();
+}
+
+void _delay(float seconds){
+    long endTime = millis() + seconds * 1000;
+    while(millis() < endTime)_loop();
+}
+
+void _loop(){
+    
+}

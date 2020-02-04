@@ -15,5 +15,5 @@ Modo de funcionamiento con EchidnaShield que se asemeja a un Escornabot programa
 Programa para comprobar el funcionamiento del joystick con Snap4Arduino
 
 ## Open LED Race en EchidnaShield (4 Jugadores)
-[OLR 4 Players](https://github.com/EchidnaShield/Recursos/tree/master/Programas_y_Aplicaciones/TestEchidnaShield)
+[OLR 4 Players](https://github.com/EchidnaShield/Recursos/tree/master/Programas_y_Aplicaciones/Echidna_OLR_4P)
 Adaptación del programa [Open LED race](https://openledrace.net/), simulador de coches de carreras minimalista.

@@ -5,7 +5,7 @@ Relación de actividades realizadas con el IDE de Arduino
 - [Hola Mundo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/Hola_Mundo/Hola_Mundo.ino)
 
 2. Secuencias Luces
-- Semaforo1
+- [Semaforo1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SecuenciasLuces/semaforo/semaforo.ino)
 - Semaforo2
 - Coche fantástico 
 

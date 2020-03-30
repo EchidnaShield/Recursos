@@ -23,21 +23,21 @@ Relación de actividades realizadas con el IDE de Arduino
 
 5. Brillo LED
 - [Fading LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Fading/Fading.ino)
-- Joystick-LED RGB Blanco
+- [Joystick-LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Joystick-LED/Joystick-LED.ino)
 
 6. LED RGB
-- FadingRGB: recorrido por los colores RGBs
+- [FadingRGB: recorrido por los colores RGBs](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/LEDRGB/FadingRGB/FadingRGB.ino)
 
 7. Acelerómetro
-- Monitorización acelerómetro con Serial plotter 
-- Medidor Nivel ejey
+- [Monitorización acelerómetro con Serial plotter](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Monitorizacion_acelerometro/Monitorizacion_acelerometro.ino)
+- [Medidor Nivel ejey](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Nivel_vertical/Nivel_vertical.ino)
 
 8.  Temperatura
-Medición temperatura TMP36
-Medición temperatura LM35 con analogReference
+- [Medición temperatura TMP36](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/TemperaturaTMP36/TemperaturaTMP36.ino)
+- [Medición temperatura LM35 con analogReference](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/TemperaturaLM35/TemperaturaLM35.ino)
 
 9. Micrófono
-- Representación ruido serial plotter con media-instantaneo
+- [Representación ruido serial plotter con media-instantaneo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Sonido/Smoothing/Smoothing.ino)
 
 10. Juego LEDs
-- Juego LEDs
+- [Juego LEDs](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Juego_LEDs/JuegoLEDs/JuegoLEDs.ino)

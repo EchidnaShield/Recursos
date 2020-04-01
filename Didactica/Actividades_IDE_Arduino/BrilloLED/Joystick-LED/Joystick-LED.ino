@@ -1,11 +1,13 @@
 /*
-  Control de la lumninosidad de un LED con un potenciómetro
+  Control de la lumninosidad de un LED RGB blanco con Joystick X
 
-  LED pin 9
-  Potenciometro pin A0
+  LED R pin 9
+  LED G pin 5
+  LED B pin 6
+  Joystick X pin A0
   Valores JoyX 0  353  702
 
-  Noviembre 2017
+  Marzo 2020
   Jose Pujol
 */
 
@@ -23,11 +25,11 @@ int bright = 0; // variable que almacena el valor del sensor mapeado 0-255
 
 void setup() {
   // nada que declarar en el setup
-  Serial.begin(9600);
+  // Serial.begin(9600);
 }
 
 void loop() {
-  // lee el valor del sensor 0-1023
+  // lee el valor del joystick 0-702
   joyXValue = analogRead(joyXPin);
   // mapea el valor a escala 0-255
   if (joyXValue > 370) {
@@ -44,6 +46,6 @@ void loop() {
   analogWrite(ledRPin, bright);
   analogWrite(ledGPin, bright);
   analogWrite(ledBPin, bright);
-//  Serial.println(joyXValue);
-//  delay(500);
+  //  Serial.println(joyXValue);
+  //  delay(500);
 }

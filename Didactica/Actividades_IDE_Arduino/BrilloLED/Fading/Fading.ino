@@ -20,19 +20,19 @@ void setup() {
   // nada que declarar en el set up
 }
 void loop() {
-  // Encendido gradual del LED en 2,5s
+  // Encendido gradual del LED 
   for (int fadeValue = 0 ; fadeValue <= 255; fadeValue ++) {
     analogWrite(ledRPin, fadeValue);
     analogWrite(ledGPin, fadeValue);
     analogWrite(ledBPin, fadeValue);
-    delay(50);                        // espera de 50 ms
+    delay(10);                        // espera de 10 ms
   }
-  // Apagado gradual del LED en 2,5
+  // Apagado gradual del LED 
   for (int fadeValue = 255 ; fadeValue >= 0; fadeValue --) {
     analogWrite(ledRPin, fadeValue);
     analogWrite(ledGPin, fadeValue);
     analogWrite(ledBPin, fadeValue);
-    delay(50);                        // espera de 50 ms
+    delay(10);                        // espera de 10 ms
   }
   // tiempo de espera apagado
   delay(1000);

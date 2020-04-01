@@ -1,7 +1,7 @@
 /*
-  Programa para controlar 2 pulsadores
-  Pulsador con Memoria controla LED RGB blanco
-  Pulsador para controlar un zumbador con un pulsador
+  Programa para controlar con 2 pulsadores LEd RGB blanco y Zumbador
+  - Pulsador L con Memoria controla LED RGB blanco
+  - Pulsador R para controlar un zumbador
   con dos leds testigos que indican el estado del zumbador
 
   Pulsador Memoria Left pin 3

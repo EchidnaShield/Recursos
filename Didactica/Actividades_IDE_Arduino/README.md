@@ -15,6 +15,7 @@ Relación de actividades realizadas con el IDE de Arduino
 - [Pulsador Memoria 1- Delay](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria1/Pulsador_Memoria1.ino)
 - [Pulsador Memoria 2- While](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria2/Pulsador_Memoria2.ino)
 - [Pulsador Memoria 3- Debounce](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria3/Pulsador_Memoria3.ino)
+- [Pulsadores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsadores/Pulsadores.ino)
 
 4. Sensor Luz
 - [Monitorización sensores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Monitorizacion_sensores/Monitorizacion_sensores.ino)

@@ -44,4 +44,4 @@ Relación de actividades realizadas con el IDE de Arduino
 - [Juego LEDs](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Juego_LEDs/JuegoLEDs/JuegoLEDs.ino)
 
 11. Mouse con EchidnaWhite
-- [Mouse EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/mouse_EchidnaWhite/mouse_EchidnaWhite.ino)
+- [Mouse joystick EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)

@@ -31,7 +31,7 @@ Relación de actividades realizadas con el IDE de Arduino
 
 7. Acelerómetro
 - [Monitorización acelerómetro con Serial plotter](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Monitorizacion_acelerometro/Monitorizacion_acelerometro.ino)
-- [Medidor Nivel ejey](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Nivel_vertical/Nivel_vertical.ino)
+- [Medidor Nivel eje Y](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Nivel_vertical/Nivel_vertical.ino)
 
 8.  Temperatura
 - [Medición temperatura TMP36](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/TemperaturaTMP36/TemperaturaTMP36.ino)

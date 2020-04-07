@@ -41,6 +41,7 @@ Relación de actividades realizadas con el IDE de Arduino
 9. Micrófono
 - [Representación ruido serial plotter con media-instantaneo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Sonido/Smoothing/Smoothing.ino)
 
-
+10. Servomotores
+- [Control servo posicion Joystick](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/ServoPosicion/ServoPosicion.ino)
 11. Mouse con EchidnaWhite
 - [Mouse joystick EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)

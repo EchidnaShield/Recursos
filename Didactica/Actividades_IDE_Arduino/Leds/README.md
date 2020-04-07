@@ -2,10 +2,10 @@
 
 Colección de programas donde se usan los leds localizado en los pines:
 
-D6 RGB azul
-D13 led rojo
-D12 led naranja
-D11 led Verde
+- D6 RGB azul
+- D13 led rojo
+- D12 led naranja
+- D11 led Verde
  
 ## Semaforo1:
 Semáforo con 3 estados: Verde, rojo, amarillo

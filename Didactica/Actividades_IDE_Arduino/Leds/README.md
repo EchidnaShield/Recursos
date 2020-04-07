@@ -24,4 +24,8 @@ A partir de un contador que cuenta 1, 2, 3, 4, 3, 2, 1 y así sucesivamente se e
 Verde=1, naranja=2, rojo=3, azul=4
 
 ## Juego de LEDs:
-A partir del programa del coche fantástico se trata de acertar cuando el led rojo está encendido. 
+A partir del programa del coche fantástico se trata de acertar cuando el led rojo está encendido.  * Juego en los que los leds se iluminan alternativamente y hay que acertar cuando el led esta en el color rojo
+- Pulsador Derecha: Acertar led rojo
+- Pulsador Izquierda: Enciende y apaga el juego
+- Tienes 5 vidas
+- Ganas si aciertas 7 veces

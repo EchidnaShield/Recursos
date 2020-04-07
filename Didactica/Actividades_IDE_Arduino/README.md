@@ -36,7 +36,7 @@ Relación de actividades realizadas con el IDE de Arduino
 
 8. Joystick
 - [Monitorización Joystick con Serial monitor](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/Monitorizacion_joystick/Monitorizacion_joystick.ino)
-- [Mouse joystick EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)
+- [Mouse joystick EchidnaWhite](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)
 
 9.  Temperatura
 - [Medición temperatura TMP36](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/TemperaturaTMP36/TemperaturaTMP36.ino)

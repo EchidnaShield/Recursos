@@ -4,7 +4,7 @@ Relación de actividades realizadas con el IDE de Arduino
 1. Hola Erizo
 - [Hola Mundo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/Hola_Mundo/Hola_Mundo.ino)
 
-2. Leds
+2. [Leds](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/README.md)
 - [Semaforo1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo/semaforo.ino)
 - [Semaforo2](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo2/semaforo2.ino)
 - [Coche fantástico](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/CocheFantastico/CocheFantastico.ino)

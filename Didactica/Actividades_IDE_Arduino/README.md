@@ -36,6 +36,7 @@ Relación de actividades realizadas con el IDE de Arduino
 
 8. Joystick
 - [Monitorización Joystick con Serial monitor](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/Monitorizacion_joystick/Monitorizacion_joystick.ino)
+- [Mouse joystick EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)
 
 9.  Temperatura
 - [Medición temperatura TMP36](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/TemperaturaTMP36/TemperaturaTMP36.ino)
@@ -46,10 +47,8 @@ Relación de actividades realizadas con el IDE de Arduino
 
 11. Servomotores
 - [Control servo posicion Joystick](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/ServoPosicion/ServoPosicion.ino)
-12. Mouse con EchidnaWhite
-- [Mouse joystick EW](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/mouse_J_EchidnaWhite/mouse_J_EchidnaWhite.ino)
 
-13 Control Echidna desde Puerto serie
+12. Control Echidna desde Puerto serie
 - [Control de LED RGB luz blanca](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/PhysicalPixel/PhysicalPixel.ino)
 - [Control brillo LED RGB luz blanca](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/ControlLedPWM/ControlLedPWM.ino)
 - [Control colores de led RGB](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/ControlLedRGBPWM/ControlLedRGBPWM.ino)

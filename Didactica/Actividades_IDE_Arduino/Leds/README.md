@@ -9,15 +9,15 @@ Colección de programas donde se usan los leds localizado en los pines:
  
 ## Semaforo1:
 Semáforo con 3 estados: Verde, rojo, amarillo
-Estado verde: 6s
-Estado naranja 2s
-Estado rojo 4s
+- Estado verde: 6s
+- Estado naranja 2s
+- Estado rojo 4s
 
 ## Semáforo 2:
 Semáforo donde se introducen las repeticiones mediante un bucle for
-Estado verde: 6s
-Estado naranja 2s: 5 repeticiones de 0,4 s en el que se enciende y se apaga el led naranja y el zumbador
-Estado rojo: 4s
+- Estado verde: 6s
+- Estado naranja 2s: 5 repeticiones de 0,4 s en el que se enciende y se apaga el led naranja y el zumbador
+- Estado rojo: 4s
 
 ## Coche fantástico:
 A partir de un contador que cuenta 1, 2, 3, 4, 3, 2, 1 y así sucesivamente se encienden los leds.

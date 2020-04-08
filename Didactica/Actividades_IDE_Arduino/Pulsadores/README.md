@@ -7,7 +7,7 @@ Ejemplo para controlar un zumbador con un pulsador, de forma que solo funciona c
 - D2 Pulsador R
 - D10 Zumbador (Analógico)
 
-# Pulsador Zumbador con leds testigos
+## Pulsador Zumbador con leds testigos
 Al ejemplo anterior se añaden dos leds, uno rojo y otro verde como testigos del funcionamiento del zumbador
 - D2 Pulsador R
 - D10 Zumbador (Analógico)

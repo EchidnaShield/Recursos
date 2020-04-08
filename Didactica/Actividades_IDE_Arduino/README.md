@@ -12,12 +12,9 @@ Relación de actividades realizadas con el IDE de Arduino
 
 ## 5. [Brillo LED](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/README.md)
 
-6. LED RGB
-- [FadingRGB: recorrido por los colores RGBs](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/LEDRGB/FadingRGB/FadingRGB.ino)
+## 6. [LED RGB](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/LEDRGB/README.md)
 
-7. Acelerómetro
-- [Monitorización acelerómetro con Serial plotter](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Monitorizacion_acelerometro/Monitorizacion_acelerometro.ino)
-- [Medidor Nivel eje Y](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Nivel_vertical/Nivel_vertical.ino)
+## [7. Acelerómetro](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/README.md)
 
 8. Joystick
 - [Monitorización Joystick con Serial monitor](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Joystick/Monitorizacion_joystick/Monitorizacion_joystick.ino)

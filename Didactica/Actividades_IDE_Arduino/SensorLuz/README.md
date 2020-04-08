@@ -10,7 +10,7 @@ Programa para ver en el monitor serie los valores que da el sensor según las co
 - LDR A5
 
 ## 2 Linterna automática:
-Linterna que se enciende de forma automática al hacerse de noche
+Linterna que se enciende de forma automática al hacerse de noche. Con poca luz enciende LED RGB color blanco
 - A5 LDR
 - D9, D5, D10 LED RGB
 

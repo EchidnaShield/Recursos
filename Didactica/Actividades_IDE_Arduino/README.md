@@ -1,5 +1,5 @@
 # ACTIVIDADES IDE ARDUINO
-Relación de actividades realizadas con el IDE de Arduino
+Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaShield, EchidnaWhite y EchidnaBlack
 
 ## [1. Hola Erizo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/README.md)
 

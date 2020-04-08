@@ -1,12 +1,6 @@
 # Pulsadores:
 
 Ejemplos sobre como usar el pulsador para accionar un zumbador y como programarlo para que tenga memoria y actúe como un interruptor controlando el encendido de un LED RGB blanco. Dado que el problema del pulsador con memoria, es un problema bastante complejo, realizamos 3 aproximaciones partiendo de la de menor complejidad. Finalmente se integran en un ejemplo los dos pulsadores.
-- 
-- 
-- [Pulsador Memoria 1- Delay]
-- [Pulsador Memoria 2- While]
-- [Pulsador Memoria 3- Debounce]
-- [Pulsadores]
 
 ## [Pulsador-Zumbador](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Zumbador/Pulsador_Zumbador.ino)
 Ejemplo para controlar un zumbador con un pulsador, de forma que solo funciona cuando estamos presionando.

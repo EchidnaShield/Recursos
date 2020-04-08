@@ -1,6 +1,6 @@
 # Control  Puerto serie
 
-Ejemplos para controlar Echidna desde el puerto serie. Nos permiten controlar la placa desde el teclado del ordenador. Estos códigos son también válidos para comunicarnos por bluetooth con lo que podríamos realizar aplicaciones con para controlar Echidna desde App Inventor.
+Ejemplos para controlar Echidna desde el puerto serie. Nos permiten controlar la placa desde el teclado del ordenador. Estos códigos son también válidos para comunicarnos por bluetooth con lo que podríamos realizar aplicaciones para controlar Echidna desde App Inventor.
 
 IMAGEN PUERTO SERIE
 

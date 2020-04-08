@@ -1,6 +1,6 @@
 # Brillo LED
 
-Códigos que permiten controlar el encendido de un LED
+Códigos que permiten controlar el brillo de un LED
 
 - [Fading LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Fading/Fading.ino)
 - [Joystick X-LED RGB blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Joystick-LED/Joystick-LED.ino)

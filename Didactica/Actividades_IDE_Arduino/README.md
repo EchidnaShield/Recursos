@@ -25,7 +25,5 @@ Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaSh
 11. Servomotores
 - [Control servo posicion Joystick](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/ServoPosicion/ServoPosicion.ino)
 
-12. Control Echidna desde Puerto serie
-- [Control de LED RGB luz blanca](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/PhysicalPixel/PhysicalPixel.ino)
-- [Control brillo LED RGB luz blanca](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/ControlLedPWM/ControlLedPWM.ino)
-- [Control colores de led RGB](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/ControlLedRGBPWM/ControlLedRGBPWM.ino)
+## [12. Control Echidna desde Puerto serie](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/README.md)
+

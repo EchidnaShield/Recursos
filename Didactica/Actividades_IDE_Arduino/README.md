@@ -1,8 +1,7 @@
 # ACTIVIDADES IDE ARDUINO
 Relación de actividades realizadas con el IDE de Arduino
 
-1. Hola Erizo
-- [Hola Mundo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/Hola_Mundo/Hola_Mundo.ino)
+## [1. Hola Erizo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/README.md)
 
 ## 2. [Leds](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/README.md)
 

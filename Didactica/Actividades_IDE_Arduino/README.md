@@ -4,21 +4,11 @@ Relación de actividades realizadas con el IDE de Arduino
 1. Hola Erizo
 - [Hola Mundo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/HolaErizo/Hola_Mundo/Hola_Mundo.ino)
 
-2. [Leds](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/README.md)
-- [Semaforo1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo/semaforo.ino)
-- [Semaforo2](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo2/semaforo2.ino)
-- [Coche fantástico](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/CocheFantastico/CocheFantastico.ino)
-- [Juego Leds](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/JuegoLEDs/JuegoLEDs.ino)
+## 2. [Leds](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/README.md)
 
-3. Pulsadores
-- [Pulsador-Zumbador](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Zumbador/Pulsador_Zumbador.ino)
-- [Pulsador-Zumbador-2-LEDs testigos](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Zumbador2/Pulsador_Zumbador2.ino)
-- [Pulsador Memoria 1- Delay](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria1/Pulsador_Memoria1.ino)
-- [Pulsador Memoria 2- While](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria2/Pulsador_Memoria2.ino)
-- [Pulsador Memoria 3- Debounce](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsador_Memoria3/Pulsador_Memoria3.ino)
-- [Pulsadores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/Pulsadores/Pulsadores.ino)
+## 3. [Pulsadores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/README.md)
 
-4. Sensor Luz
+## 4. Sensor Luz
 - [Monitorización sensores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Monitorizacion_sensores/Monitorizacion_sensores.ino)
 - [Linterna automática](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Linterna_automatica/Linterna_automatica.ino)
 - [Medidor de luz](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Medidor_Luz/Medidor_Luz.ino)

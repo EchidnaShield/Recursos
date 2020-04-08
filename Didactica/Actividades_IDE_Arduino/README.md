@@ -10,9 +10,7 @@ Relación de actividades realizadas con el IDE de Arduino
 
 ## 4. [Sensor Luz](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/README.md)
 
-5. Brillo LED
-- [Fading LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Fading/Fading.ino)
-- [Joystick-LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Joystick-LED/Joystick-LED.ino)
+## 5. [Brillo LED](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/README.md)
 
 6. LED RGB
 - [FadingRGB: recorrido por los colores RGBs](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/LEDRGB/FadingRGB/FadingRGB.ino)

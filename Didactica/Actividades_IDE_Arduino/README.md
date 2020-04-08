@@ -22,8 +22,7 @@ Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaSh
 10. Micrófono
 - [Representación ruido serial plotter con media-instantaneo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Sonido/Smoothing/Smoothing.ino)
 
-11. Servomotores
-- [Control servo posicion Joystick](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/ServoPosicion/ServoPosicion.ino)
+## [11. Servomotores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/README.md)
 
 ## [12. Control Echidna desde Puerto serie](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/README.md)
 

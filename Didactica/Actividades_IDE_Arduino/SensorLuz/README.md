@@ -1,6 +1,9 @@
 # Sensor Luz:
 
 Códigos ejemplo usando la LDR, el sensor de luz situado en el pin analógico de entrada A5.
+- [Monitorización sensores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Monitorizacion_sensores/Monitorizacion_sensores.ino)
+- [Linterna automática](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Linterna_automatica/Linterna_automatica.ino)
+- [Medidor de luz](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Medidor_Luz/Medidor_Luz.ino)
 
 ## Monitorización de sensores:
 Programa para ver los valores que da el sensor según las condiciones de luz

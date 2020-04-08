@@ -1,6 +1,6 @@
 # Pulsadores:
 
-Ejemplos sobre como usar el pulsador para accionar un zumbador y como programarlo para que tenga memoria y actúe como un interruptor controlando el encendido de un LED RGB blanco. Dado que el problema del pulsador con memoria, es un problema bastante complejo, realizamos 3 aproximaciones partiendo de la de menor complejidad.
+Ejemplos sobre como usar el pulsador para accionar un zumbador y como programarlo para que tenga memoria y actúe como un interruptor controlando el encendido de un LED RGB blanco. Dado que el problema del pulsador con memoria, es un problema bastante complejo, realizamos 3 aproximaciones partiendo de la de menor complejidad. Finalmente se integran en un ejemplo los dos pulsadores.
 
 ## Pulsador-Zumbador
 Ejemplo para controlar un zumbador con un pulsador, de forma que solo funciona cuando estamos presionando.
@@ -30,7 +30,7 @@ En esta 3ª aproximación al problema se usa el programa Debounce que tiene en c
 - D9, D5, D6 LED RGB
 
 ## Pulsadores:
-En este caso hemos integrado los dos códigos ?? Pulsador Memoria 2- LED RGB blanco y Pulsador Zumbador con leds testigos en uno de forma que con D2 controlamos el Zumbador y con D3 controlamos el LED RGB Blanco
+En este caso hemos integrado los dos códigos: Pulsador Memoria 2- LED RGB blanco y Pulsador Zumbador con leds testigos en uno de forma que con D2 controlamos el Zumbador y con D3 controlamos el LED RGB Blanco
 - D2 Pulsador R
 - D10 Zumbador (Analógico)
 - D11 LED Verde

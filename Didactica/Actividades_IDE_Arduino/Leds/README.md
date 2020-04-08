@@ -7,7 +7,7 @@ Colección de programas donde se usan los LEDs de forma secuencial:
 - D12 led naranja
 - D11 led Verde
  
-## 1. [Semaforo1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo/semaforo.ino)
+## 1. [Semaforo 1](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Leds/semaforo/semaforo.ino)
 Semáforo con 3 estados: Verde, rojo, amarillo
 - Estado verde: 6s
 - Estado naranja 2s

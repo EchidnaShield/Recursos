@@ -19,8 +19,7 @@ Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaSh
 
 ## [9.  Temperatura](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Temperatura/README.md)
 
-10. Micrófono
-- [Representación ruido serial plotter con media-instantaneo](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Sonido/Smoothing/Smoothing.ino)
+## [10. Micrófono](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono)
 
 ## [11. Servomotores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Servomotores/README.md)
 

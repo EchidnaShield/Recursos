@@ -8,10 +8,7 @@ Relación de actividades realizadas con el IDE de Arduino
 
 ## 3. [Pulsadores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Pulsadores/README.md)
 
-## 4. Sensor Luz
-- [Monitorización sensores](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Monitorizacion_sensores/Monitorizacion_sensores.ino)
-- [Linterna automática](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Linterna_automatica/Linterna_automatica.ino)
-- [Medidor de luz](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/Medidor_Luz/Medidor_Luz.ino)
+## 4. [Sensor Luz](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/SensorLuz/README.md)
 
 5. Brillo LED
 - [Fading LED RGB Blanco](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/BrilloLED/Fading/Fading.ino)

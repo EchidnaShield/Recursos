@@ -2,6 +2,7 @@
 Pines del acelerómetro:
 - A2 eje X acelerómetro
 - A3 eje Y acelerómetro
+
 Programas usando el acelerómetro
 - [Monitorización acelerómetro con Serial plotter](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Monitorizacion_acelerometro/Monitorizacion_acelerometro.ino)
 - [Medidor Nivel eje Y](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/Nivel_vertical/Nivel_vertical.ino)

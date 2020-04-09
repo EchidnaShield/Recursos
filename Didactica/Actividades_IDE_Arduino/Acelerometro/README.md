@@ -15,7 +15,7 @@ Muestra la inclinación de la placa en el eje y mediante los LEDs. En horizontal
 - LED Verde pin 11
 
 ## [3. Desplazamiento LEDs Acelerómetro](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Acelerometro/DesplazamientoLedsAcel/DesplazamientoLedsAcel.ino)
-Transforma la inclinación de la placa en el eje y a un desplazamiento de los LEDs según la inclinaciçón y el sentido. 
+Transforma la inclinación de la placa en el eje y a desplazamiento de la iluminación de los LEDs. Según la inclinación y el sentido de la placa, los LEDs se van iluminando variando la velocidad y el sentido. 
 - A3 eje Y acelerómetro
 - LED RGB Azul pin 6
 - LED Rojo pin 13

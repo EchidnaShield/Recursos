@@ -27,19 +27,12 @@
   This example code is in the public domain.
 
   http://www.arduino.cc/en/Tutorial/JoystickMouseControl
-
-  Modificado para EchidnaWite, solo se cambio readAxis(A1) por -readAxis(A1)
-    XDeSIG Abril2020
+  Modificado por XDeSIG 2020 para EchidnaWhite
 */
 
 #include <Mouse.h>
+#include "config_W.h"
 
-// set pin numbers for switch, joystick axes, and LED:
-const int switchPin = 2;      // switch to turn on and off mouse control
-const int mouseButton = 3;    // input pin for the mouse pushButton
-const int xAxis = A0;         // joystick X axis
-const int yAxis = A1;         // joystick Y axis
-const int ledPin = 5;         // Mouse control LED
 
 // parameters for reading the joystick:
 int range = 5;               // output range of X or Y movement
@@ -51,30 +44,29 @@ bool mouseIsActive = false;    // whether or not to control the mouse
 int lastSwitchState = LOW;        // previous switch state
 
 void setup() {
-  pinMode(switchPin, INPUT);       // the switch pin
-  pinMode(ledPin, OUTPUT);         // the LED pin
+  pinMode(SR, INPUT);       // the switch pin
+  pinMode(RGB_G, OUTPUT);         // the LED pin
   // take control of the mouse:
   Mouse.begin();
 }
 
 void loop() {
   // read the switch:
-  int switchState = digitalRead(switchPin);
+  int switchState = digitalRead(SR);
   // if it's changed and it's high, toggle the mouse state:
   if (switchState != lastSwitchState) {
     if (switchState == HIGH) {
       mouseIsActive = !mouseIsActive;
       // turn on LED to indicate mouse state:
-      digitalWrite(ledPin, mouseIsActive);
+      digitalWrite(RGB_G, mouseIsActive);
     }
   }
   // save switch state for next comparison:
   lastSwitchState = switchState;
 
   // read and scale the two axes:
-  int xReading = readAxis(A0);
-  int yReading = -readAxis(A1); //Cambio de readAxis(A1) POR -readAxis(A1)
-
+  int xReading = readAxis(J_X);
+  int yReading = -readAxis(J_Y);
 
   // if the mouse control state is active, move the mouse:
   if (mouseIsActive) {
@@ -83,7 +75,7 @@ void loop() {
 
   // read the mouse button and click or not click:
   // if the mouse button is pressed:
-  if (digitalRead(mouseButton) == HIGH) {
+  if (digitalRead(SL) == HIGH) {
     // if the mouse is not pressed, press it:
     if (!Mouse.isPressed(MOUSE_LEFT)) {
       Mouse.press(MOUSE_LEFT);

@@ -7,4 +7,4 @@ Programas de control usando el Joystick:
 Programa para ver los valores del joystick por el monitor serie
 
 ## [2. Joystick Mouse Control](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Joystick/mouse_Joystick_W)
-Programa para usar el Joystick como ratón del PC. Solo válido para Echidna White
+Programa para usar el Joystick como ratón del PC. Válido para Echidna White

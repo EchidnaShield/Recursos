@@ -7,7 +7,7 @@
 
     Basado en el programa Fade de Arduino
     Jose Pujol
-    Mazrzo de 2020
+    Marzo de 2020
 */
 
 // Variables globales constantes

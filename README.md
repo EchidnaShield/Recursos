@@ -21,7 +21,7 @@ Repositorio con recursos de Echidna Educacion
 [Diseños para impresión 3D](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D)
 
 ## Aplicaciones Varias
-[Programas y aplicaciones varios](https://github.com/EchidnaShield/Recursos/tree/master/Aplicaciones%20Varias)
+[Aplicaciones varias, test...](https://github.com/EchidnaShield/Recursos/tree/master/Aplicaciones%20Varias)
 
 ## Licencia
 Todos los contenidos pertenecen a Echidna Educación, han sido desarrollados por Jorge Lobo, Xabier Rosas y Jose Pujol, y se distribuyen bajo licencia [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)

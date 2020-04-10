@@ -1,8 +1,18 @@
 /*
-  Nivel vertical
-  En horizontal leds apagados
-  Si inclinamos se encienden los leds
-  Noviembre 2017
+  Nivel eje y
+  Cuando eje y está horizontal leds apagados
+  Si inclinamos se encienden los leds adyacentes al centro
+  Si inclinamos maś se encienden los leds de los extremos
+
+  Acelerometro en reposo=350
+  
+  A3 Acel y
+  D6 RGB Azul
+  D13 LED rojo
+  D12 LED naranha
+  D11 LED verde
+  
+  Abril 2010
   JosePujol
 */
 
@@ -14,6 +24,7 @@ const int ledRPin = 13; // establece el pin del LED rojo
 const int ledBPin = 6; // establece el pin del LED azul
 
 int yAcelValue = 0;  // variable para alamacenar los valores del sensor
+//int yAcelMedValue = 0; // vble para almacenar los valores medios y eliminar valores fluctuantes
 
 void setup() {
   // establece los LEDs como salidas
@@ -26,9 +37,12 @@ void setup() {
 
 void loop() {
   yAcelValue = analogRead(yAcelPin);    // lee el valor del sensor
-//  Serial.println(yAcelValue);       // Imprime el valor del sensor
-//  delay(1000);                    // Espera 0.1 segundo
-  if (yAcelValue < 300) {
+  //yAcelMedValue = yAcelMedValue * 0.7 + yAcelValue * 0.3;
+  Serial.println(yAcelValue);       // Imprime el valor del sensor
+  // Serial.print("   ");       // Imprime el valor del sensor
+  // Serial.println(yAcelMedValue);       // Imprime el valor del sensor
+  // delay(500);                    // Espera 0.1 segundo
+  if (yAcelValue < 310) {
     digitalWrite(ledGPin, HIGH);
     digitalWrite(ledOPin, LOW);
     digitalWrite(ledRPin, LOW);
@@ -46,7 +60,7 @@ void loop() {
     digitalWrite(ledRPin, LOW);
     digitalWrite(ledBPin, LOW);
   }
-  else if (yAcelValue < 400) {
+  else if (yAcelValue < 390) {
     digitalWrite(ledGPin, LOW);
     digitalWrite(ledOPin, LOW);
     digitalWrite(ledRPin, HIGH);

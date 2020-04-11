@@ -22,12 +22,13 @@ const int ledOPin = 12; // establece el pin del LED naranja
 const int ledRPin = 13; // establece el pin del LED rojo
 const int ledBPin = 6; // establece el pin del LED azul
 
-int yAcelValue = 0;  // variable para alamacenar los valores del sensor
+
 
 // variables que cambian
-int contador = 1;
-int sentido = 0;
-int tiempo = 500;
+int yAcelValue = 0;  // variable para alamacenar los valores del sensor
+int contador = 1; // contador para encender los leds
+int sentido = 0;  // sentido desplazamiento contador
+int tiempo = 500; // tiempo- velocidad desplazamiento leds
 
 void setup() {
   // establece los LEDs como salidas
@@ -42,24 +43,27 @@ void setup() {
 void loop() {
 
   yAcelValue = analogRead(yAcelPin);    // lee el valor del sensor
+  // si valor sensor menor horizontal ejey
   if (yAcelValue < 340) {
     sentido = -1;
     tiempo = map(yAcelValue, 340, 250, 500, 10);
   }
+  // si valor sensor mayor horizontal ejey
   else if (yAcelValue < 360) {
     sentido = 0;
     tiempo = 500;
   }
+  // si acelerometro esta horizontal
   else {
     sentido = 1;
     tiempo = map(yAcelValue, 360, 450, 500, 10);
   }
 
-  contar();
+  contar(); // se llama a la función contar
 
-  encenderleds();
+  encenderleds();  // se llama a la funcion encender leds
 
-  delay(tiempo);
+  delay(tiempo);   // espera tiempo
 
 }
 

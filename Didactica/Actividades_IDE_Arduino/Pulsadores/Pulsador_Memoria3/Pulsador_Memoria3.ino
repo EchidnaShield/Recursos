@@ -28,66 +28,67 @@
 */
 
 // constants won't change. They're used here to set pin numbers:
-const int buttonPin = 3;    // the number of the pushbutton pin
+const int buttonPin = 3;    // pin del pulsador
 // pines del LED RGB
 const int ledRPin = 9; // establece el pin del LED rojo
 const int ledGPin = 5; // establece el pin del LED verde
 const int ledBPin = 6; // establece el pin del LED azul
 
 // Variables will change:
-int ledState = HIGH;         // the current state of the output pin
-int buttonState;             // the current reading from the input pin
-int lastButtonState = LOW;   // the previous reading from the input pin
+int ledState = HIGH;         // estado actual del LED
+int buttonState;             // lectura actual del pulsador
+int lastButtonState = LOW;   // lectura anterior del pulsador
 
-// the following variables are unsigned longs because the time, measured in
-// milliseconds, will quickly become a bigger number than can be stored in an int.
-unsigned long lastDebounceTime = 0;  // the last time the output pin was toggled
-unsigned long debounceDelay = 50;    // the debounce time; increase if the output flickers
+// variables asociadas al tiempo
+unsigned long lastDebounceTime = 0;  // Ultima vez que el pulsador fue pulsado
+unsigned long debounceDelay = 50;    // tiempo para filtrar rebotes
 
 void setup() {
+  // establece los pines como entradas y salidas
   pinMode(buttonPin, INPUT);
   pinMode(ledRPin, OUTPUT);
   pinMode(ledGPin, OUTPUT);
   pinMode(ledBPin, OUTPUT);
 
-  // set initial LED state
-  digitalWrite(ledPin, ledState);
+  // Escribe en el LED RGB el estado actual
+  digitalWrite(ledRPin, ledState);
+  digitalWrite(ledGPin, ledState);
+  digitalWrite(ledBPin, ledState);
 }
 
 void loop() {
-  // read the state of the switch into a local variable:
+  // lee el estado del pulsador y lo alamcena
   int reading = digitalRead(buttonPin);
 
   // check to see if you just pressed the button
   // (i.e. the input went from LOW to HIGH), and you've waited long enough
   // since the last press to ignore any noise:
 
-  // If the switch changed, due to noise or pressing:
+  // si el valor del pulsador ha cambiado por ruido o presion
   if (reading != lastButtonState) {
-    // reset the debouncing timer
+    // resetea el ultimo tiempo de rebote
     lastDebounceTime = millis();
   }
 
   if ((millis() - lastDebounceTime) > debounceDelay) {
-    // whatever the reading is at, it's been there for longer than the debounce
-    // delay, so take it as the actual current state:
-
-    // if the button state has changed:
+    // Si el valor permanece mas de 50 ms
+    
+    // Si el valor ha cambiado:
     if (reading != buttonState) {
       buttonState = reading;
 
-      // only toggle the LED if the new button state is HIGH
+      // Si el valor del pulsador es alto cambia el valor del estado del led
       if (buttonState == HIGH) {
         ledState = !ledState;
       }
     }
   }
 
-  // set the LED:
+  // escribe en el LED RGB:
   digitalWrite(ledRPin, ledState);
   digitalWrite(ledGPin, ledState);
   digitalWrite(ledBPin, ledState);
 
-  // save the reading. Next time through the loop, it'll be the lastButtonState:
+  // almacena el valor de la ultima lectura
   lastButtonState = reading;
 }

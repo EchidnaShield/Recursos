@@ -1,4 +1,4 @@
-*
+/*
   Desplazamiento LEDs Acelerómetro
   Programa que controla el desplazamiento de los leds en sentido y velocidad en
   funcion de la inclinacion del acelerometro

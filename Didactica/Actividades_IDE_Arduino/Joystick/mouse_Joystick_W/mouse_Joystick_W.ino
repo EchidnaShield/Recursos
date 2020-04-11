@@ -31,7 +31,7 @@
 */
 
 #include <Mouse.h>
-#include "config_W.h"
+#include "config_W.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
 
 
 // parameters for reading the joystick:
@@ -65,8 +65,8 @@ void loop() {
   lastSwitchState = switchState;
 
   // read and scale the two axes:
-  int xReading = readAxis(J_X);
-  int yReading = -readAxis(J_Y);
+  int xReading = readAxis(Joy_X);
+  int yReading = -readAxis(Joy_Y); //Cambiado de signo para que se corresponda con el Joystick de EchidaWhite
 
   // if the mouse control state is active, move the mouse:
   if (mouseIsActive) {

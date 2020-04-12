@@ -2,6 +2,16 @@
     Utiliza el microfóno y los LEDes rojO "L_Red", naranja "L_orn" y verde "L_Gre"
     para simular un semaforo que indique tres niveles de ruido en la entrada Mic,
     Usa una media de las medidas a modo de filtro
+    La respuesta se puede mejorar aplicando filtro paso bajos, por ejemplo filtro EMA
+    float EMA_ALPHA = 0,6;
+    int EMA_PB = 0;
+    
+    int EMAPasoBajo(int sinal)
+    {
+   EMA_PB = EMA_ALPHA * sinal + (1 - EMA_ALPHA) * EMA_LP;
+   return EMA_PB;
+   }
+
     XDeSIG 2019
 */
 

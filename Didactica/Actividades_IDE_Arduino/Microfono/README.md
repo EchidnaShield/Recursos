@@ -8,11 +8,11 @@ Programa para filtrar la señal proveniente del micrófono y representarla por e
 
 IMAGEN SERIAL PLOTTER
 
-## [2.Vumetro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vumetro_W)
+## [2.V&uacute;metro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vumetro_W)
     Utiliza el microfóno y los LEDes para simular un VU-Meter, conectado a la entrada Mic, 
     usa los Leds L_Gre, L_Orn, L_Red, RGB_R, RGB_G y RGB_B como indicadores del nivel.
 
-## [2.Vumetro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vu_semaf_W)
+## [2.Sem&aacute;foro sonido](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vu_semaf_W)
     Utiliza el microfóno y los LEDes rojO "L_Red", naranja "L_orn" y verde "L_Gre", 
     para simular un semaforo que indique tres niveles de ruido en la entrada Mic.
 

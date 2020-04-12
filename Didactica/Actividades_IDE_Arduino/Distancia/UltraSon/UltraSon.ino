@@ -33,9 +33,10 @@ void loop() {
   //  La función pulseIn obtiene el tiempo que tarda en cambiar entre estados, en este caso LOW a HIGH
   unsigned long tiempo = pulseIn(IN, HIGH);
   
-   // Obtenemos la distancia en cm,el tiempo lo tenemos en microsegundos lo pasaremos a segundos
+   // Obtenemos la distancia en cm,el tiempo lo tenemos en microsegundos lo pasaremos a segundos (1E-6 = 0.000001)
   
-  float distancia = tiempo*1E-6*sonido /2;
+  int distancia = tiempo*1E-6*sonido /2;
+  //float distancia = tiempo*1E-6*sonido /2; // si lo queremos con 2 decimales
 
 // enviamos los datos vía serie
   Serial.print(distancia);

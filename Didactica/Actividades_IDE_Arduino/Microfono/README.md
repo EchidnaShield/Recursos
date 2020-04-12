@@ -1,5 +1,5 @@
 # Micrófono
-Programas usando el micrófono. Validos para Echidna White y Echidna Black
+Programas usando el micrófono "Mic". Validos para Echidna White y Echidna Black
 - Echidna White A8
 - Echidna Black A7
 
@@ -8,7 +8,16 @@ Programa para filtrar la señal proveniente del micrófono y representarla por e
 
 IMAGEN SERIAL PLOTTER
 
+## [2.Vumetro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vumetro_W)
+    Utiliza el microfóno y los LEDes para simular un VU-Meter, conectado a la entrada Mic, usa los Leds L_Gre, L_Orn, L_Red, RGB_R, RGB_G y RGB_B como indicadores del nivel.
+
+## [2.Vumetro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Microfono/Vu_semaf_W)
+    Utiliza el microfóno y los LEDes rojO "L_Red", naranja "L_orn" y verde "L_Gre" para simular un semaforo que indique tres niveles de ruido en la entrada Mic.
+
+
+
+
 
 Otros programas para añadir:
-- Semáforo de ruido
+
 - Encendido de LED por palmada

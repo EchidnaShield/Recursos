@@ -8,8 +8,12 @@
 #include "config_S.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
 
 
-
-const float sonido = 34300.0; // Velocidad del sonido en cm/s
+/* Velocidad del sonido en cm/s
+ * Este valor depende de la presión atmosferica, 
+ * Temperatura y humedad.
+ * 34320 cm/s a 1Atm a 20ºC y 50%RH
+ */
+const float sonido = 34320.0; 
 
 void setup() {
   // Inicia el monitor serie
@@ -29,9 +33,9 @@ void loop() {
   //  La función pulseIn obtiene el tiempo que tarda en cambiar entre estados, en este caso LOW a HIGH
   unsigned long tiempo = pulseIn(IN, HIGH);
   
-   // Obtenemos la distancia en cm, hay que convertir el tiempo en segudos ya que está en microsegundos
-  // por eso se multiplica por 0.000001
-  float distancia = tiempo * 0.000001 * sonido / 2.0;
+   // Obtenemos la distancia en cm,el tiempo lo tenemos en microsegundos lo pasaremos a segundos
+  
+  float distancia = tiempo*1E-6*sonido /2;
 
 // enviamos los datos vía serie
   Serial.print(distancia);

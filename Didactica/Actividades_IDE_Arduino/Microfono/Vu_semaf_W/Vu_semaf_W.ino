@@ -42,14 +42,14 @@ void loop()
   }
 
   //Si la media de valores está entre los valores Máx y Min.
-  if (media < V_Max & media > V_Min) {
+  else if (media > V_Min) {
     digitalWrite(L_Red, 0);
     digitalWrite(L_Orn, 1); //Enciende el LED naranja, apagamos el Resto
     digitalWrite(L_Gre, 0);
   }
 
   //Si la media de valores supera el valor máximo
-  if (media < V_Min) {
+  else {
     digitalWrite(L_Red, 0);
     digitalWrite(L_Orn, 0);
     digitalWrite(L_Gre, 1); //Enciende el LED verde, apagamos el Resto

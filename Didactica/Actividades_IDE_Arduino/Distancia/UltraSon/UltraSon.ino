@@ -1,7 +1,21 @@
 /* 
- *  Programa para utilizar un medidor de distancias mediante ultrasonidos HC-SR04
+ *  Medir distancias mediante el módulo ultrasonidos HC-SR04
  *  conectado a la entrada/salida IN "A4", como solo tiene un pin,
  *  une los pines Trigger y ECHO del HC-SR04 y conéctalos al IN.
+ *+--------------------------------+
+  |     _.-.,            _.-.,     |
+  |    /     \          /     \    |
+  |   |       |        |       |   |
+  |   |       |        |       |   |
+  |    \     /          \     /    |
+  |     `'-'` +  T  E  - `'-'`     |
+  |           |  |  |  |           |
+  +-----------|--|--|--|-----------+
+              |  |  |  |
+              |  |  |  |
+              |  ----  |
+              |   |    |
+              +   IN   -
  *  XDeSIG 2020
  */
 

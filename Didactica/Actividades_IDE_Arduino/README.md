@@ -25,3 +25,5 @@ Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaSh
 
 ## [12. Control Echidna desde Puerto serie](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/ControlPuertoSerie/README.md)
 
+## [13. Medida de distancia](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/Distancia/README.md)
+

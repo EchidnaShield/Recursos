@@ -6,13 +6,13 @@ Repositorio con recursos de Echidna Educacion
 
 ## Didáctica
 ### Primaria Actividades 
-[Actividades para trabajar con Echidna en Educación Primaria](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_Primaria)
+[Actividades para trabajar con Echidna en Educación Primaria](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_Primaria/readme.md)
 ### Secundaria Actividades 
-[Actividades para trabajar con Echidna en Educación Secundaria](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades)
+[Actividades para trabajar con Echidna en Educación Secundaria](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades/README.md)
 ### Actividades IDE Arduino
-[Actividades para trabajar con el IDE de Arduino](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino)
+[Actividades para trabajar con el IDE de Arduino](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/README.md)
 ### Talleres
-[Material de los talleres impartidos](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Talleres)
+[Material de los talleres impartidos](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Talleres/README.md)
 
 ## Electronica
 [Esquemas electrónicos](https://github.com/EchidnaShield/Recursos/tree/master/electronica)

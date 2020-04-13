@@ -1,16 +1,16 @@
 /* 
  *  Medida de distancias de 10 a 80cm,  mediante Sharp 0A41SK, la respuesta no es lineal
- *  Tenemos que modelizar la longitud medida L = 17569.7 * voltaje ^ -1.2062
- *  https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a41sk_e.pdf
+ *  Tenemos que modelizar la longitud medida usando la libreria de Giuseppe Masino "qub1750ul"
+ *  https://github.com/qub1750ul/Arduino_SharpIR
  *  conectado a la entrada/salida IN "A4"
  *  XDeSIG 2020
  */
 
 #include "config_S.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
 
-#include <SharpIR.h> // Importamos la libreira de modelización de medida https://github.com/qub1750ul/Arduino_SharpIR
+#include <SharpIR.h> // Importamos la libreira de modelización de medida 
 
-// crea una nueva instancia llamando a la libreira y asignanando a sensor el modelo GP2Y0A41SK0F conectado en la entrada IN
+// crea una nueva instancia llamando a la libreira y asignando sensor al modelo GP2Y0A41SK0F conectado en la entrada IN
 SharpIR sensor( SharpIR::GP2Y0A41SK0F, IN );
 
 void setup() {
@@ -27,7 +27,6 @@ void loop() {
   Serial.println(" cm");
   delay(1000);
 }
-
 
 // Función de lectura de distancia
 float distancia(int n)

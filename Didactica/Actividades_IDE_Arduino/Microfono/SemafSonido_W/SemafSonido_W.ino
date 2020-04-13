@@ -18,7 +18,7 @@
 #include "config_W.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
 
 
-int V_Max = 40; // Valor máximo a comparar
+int V_Max = 20; // Valor máximo a comparar
 int V_Min = 10; // Valor mínimo a comparar
 
 int muestras = 128; // Numero de valores para hacer la media
@@ -58,7 +58,7 @@ void loop()
     digitalWrite(L_Gre, 0);
   }
 
-  //Si la media de valores supera el valor máximo
+  //Si la media de valores en menor que el valor mínimo
   else {
     digitalWrite(L_Red, 0);
     digitalWrite(L_Orn, 0);

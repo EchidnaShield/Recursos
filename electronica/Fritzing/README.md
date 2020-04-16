@@ -1,6 +1,7 @@
 # Partes para Fritzing
 
-## Echidna Shiels
+## Echidna Shield
+
 ![EchidnaShield](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Echidna_Shield.png)
 
 [Imagen vectorial SVG](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Echidna_Shield.svg)

@@ -16,6 +16,7 @@ Repositorio con recursos de Echidna Educacion
 
 ## Electronica
 [Esquemas electrónicos](https://github.com/EchidnaShield/Recursos/tree/master/electronica)
+[Partes par Fritzing](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Friting)
 
 ## Diseños3D
 [Diseños para impresión 3D](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D)

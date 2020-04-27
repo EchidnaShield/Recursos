@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 405.52192 304.45383"
    height="304.45383"
    width="405.52191"
    id="svg90"
-   version="1.1">
+   version="1.1"
+   sodipodi:docname="Echidna_Shield.svg"
+   inkscape:version="0.92.4 (fd57863, 2020-04-02)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1533"
+     inkscape:window-height="845"
+     id="namedview578"
+     showgrid="false"
+     inkscape:zoom="2.0758484"
+     inkscape:cx="202.76096"
+     inkscape:cy="152.22691"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg90" />
   <metadata
      id="metadata96">
     <rdf:RDF>
@@ -19,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -33,7 +57,10 @@
      height="285.72906"
      width="404.97305"
      id="rect9490"
-     style="fill:#e2012d;fill-opacity:1;stroke:#000000;stroke-width:0.54885048;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     style="fill:#e2012d;fill-opacity:1;stroke:#000000;stroke-width:0.54885048;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-filename="/home/lobo/rect9490.png"
+     inkscape:export-xdpi="71.019997"
+     inkscape:export-ydpi="71.019997" />
   <g
      transform="matrix(0.11351087,0,0,0.11351087,8.3305741,48.847551)"
      id="g60025-8"
@@ -2516,14 +2543,14 @@
        id="tspan10171-7">G + D8</tspan></text>
   <text
      id="text10173-08"
-     y="39.084671"
-     x="167.71622"
+     y="39.566402"
+     x="181.20468"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;line-height:1.25;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.68183994"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';fill:#ffffff;stroke-width:3.68183994"
-       y="39.084671"
-       x="167.71622"
-       id="tspan10171-6">IN A4 +  G</tspan></text>
+       y="39.566402"
+       x="181.20468"
+       id="tspan10171-6">G + A4</tspan></text>
   <text
      id="text10173-08-2"
      y="53.380348"

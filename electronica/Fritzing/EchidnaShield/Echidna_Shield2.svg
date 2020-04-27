@@ -31,8 +31,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="5.6568542"
-     inkscape:cx="301.73784"
-     inkscape:cy="142.66732"
+     inkscape:cx="214.22597"
+     inkscape:cy="298.95851"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3140,17 +3140,6 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';fill:#ffffff;stroke-width:3.68183994">G  +  D8</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;line-height:1.25;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.68183994"
-     x="166.55263"
-     y="38.907894"
-     id="text10173-08"><tspan
-       sodipodi:role="line"
-       id="tspan10171-6"
-       x="166.55263"
-       y="38.907894"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';fill:#ffffff;stroke-width:3.68183994">IN A4   +   G</tspan></text>
-  <text
-     xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;line-height:1.25;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
      x="51.138954"
      y="53.380348"
@@ -4330,4 +4319,15 @@
      id="path641"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;line-height:1.25;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.68183994"
+     x="180.384"
+     y="39.45842"
+     id="text10173-3"><tspan
+       sodipodi:role="line"
+       id="tspan10171-6"
+       x="180.384"
+       y="39.45842"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.36367989px;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';fill:#ffffff;stroke-width:3.68183994">G  +  A4</tspan></text>
 </svg>

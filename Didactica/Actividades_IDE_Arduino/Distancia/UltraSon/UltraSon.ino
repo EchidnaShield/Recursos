@@ -1,7 +1,7 @@
 /* 
  *  Medir distancias mediante el módulo ultrasonidos HC-SR04
- *  conectado a la entrada/salida IN "A4", como solo tiene un pin,
- *  une los pines Trigger y ECHO del HC-SR04 y conéctalos al IN.
+ *  conectado a la entrada/salida I/O1 "D4", como solo tiene un pin,
+ *  une los pines Trigger y ECHO del HC-SR04 y conéctalos al D4.
  *+--------------------------------+
   |     _.-.,            _.-.,     |
   |    /     \          /     \    |
@@ -15,7 +15,7 @@
               |  |  |  |
               |  ----  |
               |   |    |
-              +   IN   -
+              +   D4   -
  *  XDeSIG 2020
  */
 
@@ -35,17 +35,17 @@ void setup() {
 }
 
 void loop() {
-  pinMode (IN, OUTPUT); //Define el pin como salida "Trigger" 
-  digitalWrite(IN, LOW); //Trigger en estado bajo y espera 2 ms
+  pinMode (IO1, OUTPUT); //Define el pin como salida "Trigger" 
+  digitalWrite(IO1, LOW); //Trigger en estado bajo y espera 2 ms
   delayMicroseconds(2); 
-  digitalWrite(IN, HIGH);//Trigger a estado alto y espera 10 ms
+  digitalWrite(IO1, HIGH);//Trigger a estado alto y espera 10 ms
   delayMicroseconds(10);
-  digitalWrite(IN, LOW);   //Trigger en estado bajo.
+  digitalWrite(IO1, LOW);   //Trigger en estado bajo.
 
-  pinMode (IN, INPUT); //Define el pin como entrada esperando el ECHO
+  pinMode (IO1, INPUT); //Define el pin como entrada esperando el ECHO
   
   //  La función pulseIn obtiene el tiempo que tarda en cambiar entre estados, en este caso LOW a HIGH
-  unsigned long tiempo = pulseIn(IN, HIGH);
+  unsigned long tiempo = pulseIn(IO1, HIGH);
   
    // Obtenemos la distancia en cm,el tiempo lo tenemos en microsegundos lo pasaremos a segundos (1E-6 = 0.000001)
   

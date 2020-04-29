@@ -9,4 +9,6 @@
 
 ## [2. Infrarojo Sharp GP2Y0A41SK0F](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/Distancia/GP2Y0A41SK0F)
  -  Medida de distancias de 10 a 80cm,  mediante Sharp GP2Y0A41SK0F, usando la de Giuseppe Masino [qub1750ul](https://github.com/qub1750ul/Arduino_SharpIR)
+ 
+ <img src="Echidna Sharp_bb.png" width="600" align="center">
 

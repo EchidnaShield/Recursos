@@ -1,5 +1,5 @@
 # Torreta Laser
-Complementos a la Pan tilt head del [ElTitoManolo](https://www.thingiverse.com/eltitomanolo/about)
+Complementos a la Pan tilt head del ElTitoManolo
 <br>
 ## Partes
 Brazo[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.png"/>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.stl)

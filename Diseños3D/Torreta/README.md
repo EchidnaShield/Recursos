@@ -1,5 +1,4 @@
-# Torreta Laser
-[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Torreta.png"/> </p>]
+# Torreta Laser[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Torreta.png"/> </p>]
 <br>
 Complementos a la Pan tilt head del ElTitoManolo
 

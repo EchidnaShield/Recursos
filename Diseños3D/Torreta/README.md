@@ -1,5 +1,7 @@
 # Torreta Laser
 Complementos a la Pan tilt head del ElTitoManolo
+[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Torreta.png" height="100"/> </p>]
+
 <br>
 ## Partes
 Brazo[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.png"/>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.stl)

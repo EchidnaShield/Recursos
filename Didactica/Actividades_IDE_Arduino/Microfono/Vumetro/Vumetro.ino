@@ -5,14 +5,13 @@
     XDeSIG 2019
 */
 
-#include "config_W.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
+#include "config_B.h" // Definición de todos los recursos de Echidna Shield "S" Black "B" White "W"
 
 
 int ledPins[] = {255, L_Gre, L_Orn, L_Red, RGB_R, RGB_G, RGB_B} ; // LEDes en una matriz, el 
 
-#define Pin_analox A8
 
-int V_Max = 20; // valor maximo que queremos medir
+int V_Max = 10; // valor maximo que queremos medir
 
 void setup()
 {
@@ -21,7 +20,7 @@ void setup()
   {
     pinMode(ledPins[i], OUTPUT);
   }
-
+  Serial.begin(9600);
 }
 
 void loop()
@@ -29,7 +28,7 @@ void loop()
 
 
   int sinal = analogRead(Mic); //Captura el valor analógico del micrófono
-
+  Serial.println(sinal);
   // Comprueba que no nos pasamos de V_Max
   if (sinal > V_Max) {
     sinal = V_Max;

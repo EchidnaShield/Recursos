@@ -15,7 +15,7 @@
     XDeSIG 2019
 */
 
-#include "config_W.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
+#include "config_B.h" // Definición de todos los recursos de Echidna Shield "S",  White "W" o Black "B"
 
 
 int V_Max = 20; // Valor máximo a comparar

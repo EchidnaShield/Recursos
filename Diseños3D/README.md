@@ -31,7 +31,7 @@ Turn the PrintBot UNO into a boat.
 
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/printboat1.jpg" height="150"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/PrintBoat/)
 
-## [Modificaciones para láser en la torreta](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Torreta) |  [eltitomanolo](https://www.thingiverse.com/eltitomanolo/about)
+## [Complementos para láser en la torreta](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Torreta) |  [eltitomanolo](https://www.thingiverse.com/eltitomanolo/about)
 
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Torreta.jpg" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/tree/master/Dise%C3%B1os3D/Torreta)
 

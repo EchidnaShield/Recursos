@@ -10,9 +10,9 @@ Soporte laser[<img src="https://github.com/EchidnaShield/Recursos/blob/master/Di
 <br>
 [<img src="https://cdn.thingiverse.com/renders/12/fe/68/56/58/57f312213586f4db5ce062b65d8a6737_thumb_medium.jpg"/>](https://cdn.thingiverse.com/assets/6c/db/6c/a0/f1/base.stl) Base
 <br>
-Pan tilt head byeltitomanolois licensed under theCreative Commons - Attribution - Non-Commercial - Share Alikelicense.
+ Head and Base by eltitomanolo is licensed under theCreative Commons - Attribution - Non-Commercial - Share Alikelicense.
 <br>
 <br>
 ## License
-CC - BY - SA
+CC - BY - SA <br>
 XDeSIG

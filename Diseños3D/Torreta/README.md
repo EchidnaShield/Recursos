@@ -3,8 +3,8 @@ Complementos a la Pan tilt head del [ElTitoManolo](https://www.thingiverse.com/e
 ## Parts
 | Arm | Laser support |
 | ----- | ---- |
-|[Arm ](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.png) | [Arm](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.stl) |
-|![Laser support ](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Soporte_Laser.png) | ![Laser support](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Soporte_Laser.stl) |   |
+|[Arm ](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.png) | ![Laser support ](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Soporte_Laser.png) |
+| [Arm](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/ARM_modif.stl)|![Laser support](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Torreta/Soporte_Laser.stl) |   |
 ## Parts ElTitoManolo
 | Head no horns | Base |
 | ----- | ---- |

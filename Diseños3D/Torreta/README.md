@@ -2,8 +2,6 @@
 
 Complementos a la Pan tilt head del [ElTitoManolo](https://www.thingiverse.com/eltitomanolo/about)
 
-| ![Preview1](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/printbot_view2.jpg) | ![Preview2](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Printbot/printbot_view1.jpg) |
-
 ## Parts
 | Arm | Laser support |
 | ----- | ---- |

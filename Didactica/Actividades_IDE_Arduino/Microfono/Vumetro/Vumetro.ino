@@ -11,7 +11,7 @@
 int ledPins[] = {255, L_Gre, L_Orn, L_Red, RGB_R, RGB_G, RGB_B} ; // LEDes en una matriz, el 
 
 
-int V_Max = 30; // valor maximo que queremos medir
+int V_Max = 20; // valor maximo que queremos medir
 
 void setup()
 {

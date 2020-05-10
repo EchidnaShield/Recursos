@@ -1,5 +1,5 @@
 # MkMk
-Programas usando las conexiones y el modo MkMk
+Programas usando las conexiones y el modo MkMk, para lo que hay que colocar el conmutador "Select" en MkMk
 
  <img src="EchidnaMkMk_bb.png" width="400" align="center">
 

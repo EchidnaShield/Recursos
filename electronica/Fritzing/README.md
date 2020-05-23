@@ -12,7 +12,7 @@
 
 ![EchidnaBlack](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna_Black.png)
 
-[Imagen vectorial SVG]https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna_Black.svg)
+[Imagen vectorial SVG](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna_Black.svg)
 
 [Archivo de Fritzing](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna%20Black.fzpz)
 

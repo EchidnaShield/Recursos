@@ -8,7 +8,7 @@
 [Esquemas electrónicos...](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Black)
 
 ## Fritzing
-[Partes para simular](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Black)
+[Partes para simular](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Fritzing)
 
 
 ## Licencia

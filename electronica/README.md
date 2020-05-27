@@ -1,4 +1,4 @@
-# Recursos
+# Electrónica
 <img src="../Logos/echidna_logo_L.jpg" width="300" align="right">
 
 ## EchidnaShield

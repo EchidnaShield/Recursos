@@ -1,5 +1,5 @@
 # Partes para Fritzing
-![Esquema](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Esquema.png)
+![Esquema](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Esquema.png)
 ## Echidna Shield
 
 ![EchidnaShield](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Echidna_Shield.png)
@@ -7,6 +7,15 @@
 [Imagen vectorial SVG](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Echidna_Shield.svg)
 
 [Archivo de Fritzing](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/EchidnaShield/Echidna%20Shield.fzpz)
+
+## Echidna Black
+
+![EchidnaBlack](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna_Black.png)
+
+[Imagen vectorial SVG](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna_Black.svg)
+
+[Archivo de Fritzing](https://github.com/EchidnaShield/Recursos/blob/master/electronica/Fritzing/Echidna_Black/Echidna%20Black.fzpz)
+
 
 ## Manzana
 

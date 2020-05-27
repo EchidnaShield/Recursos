@@ -22,14 +22,14 @@
 // more the readings will be smoothed, but the slower the output will respond to
 // the input. Using a constant rather than a normal variable lets us use this
 // value to determine the size of the readings array.
-const int numReadings = 10;
+const int numReadings = 5;
 
 int readings[numReadings];      // the readings from the analog input
 int readIndex = 0;              // the index of the current reading
 int total = 0;                  // the running total
 int average = 0;                // the average
 
-int inputPin = A8;
+int inputPin = A7;
 
 void setup() {
   // initialize serial communication with computer:

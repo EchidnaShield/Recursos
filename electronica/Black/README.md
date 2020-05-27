@@ -11,5 +11,5 @@
 <img src="EchidnaBlack_0_board_top.png" width="600" align="center">
 
 
-<img src="EchidnaBlack_0_board_bottom" width="600" align="center">
+<img src="EchidnaBlack_0_board_bottom.png" width="600" align="center">
 

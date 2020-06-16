@@ -19,7 +19,7 @@
  *  XDeSIG 2020
  */
 
-#include "config_S.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
+#include "config_S.h" // Definición de todos los recursos de Echidna Shield "config_S.h" Balck "config_B.h"o White "config_W.h"
 
 
 /* Velocidad del sonido en cm/s

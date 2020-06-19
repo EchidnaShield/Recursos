@@ -44,7 +44,7 @@ void loop() {
   // elimina el primer valor almacenado
   total = total - readings[readIndex];
   // read from the sensor:
-  readings[readIndex] = analogRead(inputPin);
+  readings[readIndex] = (analogRead(inputPin))*10;
   // add the reading to the total:
   total = total + readings[readIndex];
   // advance to the next position in the array:

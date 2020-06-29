@@ -30,7 +30,7 @@ void setup() {
 // Bucle que se repite
 void loop() {
   int lectura = analogRead(LM35Pin); // Valor entre 0 y 1023
-  temperatura = (lectura* 5.0 * 100.0)/1024.0; // Temperatura en º Celsius
+  temperatura = (lectura* 1.1 * 100.0)/1024.0; // Temperatura en º Celsius
 
   Serial.print("Temperatura:");  
   Serial.print(temperatura);  // Mostramos el valor de la temperatura 

@@ -1,5 +1,5 @@
 # Recursos
-<img src="Logo_Echidna-web.png" width="300" align="right">
+<img src="Logos/Logo_Echidna-web.png" width="300" align="right">
 Repositorio con recursos de Echidna Educacion
 
 [www.echidna.es](http://echidna.es/)

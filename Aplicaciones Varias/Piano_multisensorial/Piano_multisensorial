@@ -1,4 +1,4 @@
-/* Piano multisensorial para EchidnaShield. Las entradas analógicas y D2 y D3 actúan como interruptores 
+/* Piano multisensorial para EchidnaShield, por @lobo_tic. Las entradas analógicas y D2 y D3 actúan como interruptores 
 que se cierran al tocarlos una persona conectada al conector señalado con una figura humana del escudo. 
 Para un correcto funcionamiento, el conmutador  Select debe encontrarse en la posición MKMK */
 

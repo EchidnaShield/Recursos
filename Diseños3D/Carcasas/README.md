@@ -6,7 +6,8 @@
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Shield/carcasa.png" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Shield/Caixa_echidnaShield_001.stl)
 ### Caja de protección para tu EchidnaBlack.
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Black/Caixa_Black.png" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Black/Caixa_EchidnaBlack.stl)
-### Caja baja de protección para tu EchidnaBlack con taladros compatibles con Arduino (usa menos material y tarda menos en ser impresa).
+### Caja baja de protección para tu EchidnaBlack con taladros compatibles Arduino UNO
+###(usa menos material y tarda menos en ser impresa).
 [<img src="https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Black/Caixa_EchidnaBlack_Baixa.png" height="100"/> </p>](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Black/Caixa_EchidnaBlack_Baixa.stl)
 
 

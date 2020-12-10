@@ -31,11 +31,13 @@ void setup()
   pinMode (L_Red, OUTPUT);
   pinMode (L_Orn, OUTPUT);
   pinMode (L_Gre, OUTPUT);
+   analogReference(INTERNAL); // cambiamos la referencia analógica a 1.1V
 }
 
 void loop()
 {
   //Captura el valor de Mic y lo acumula
+ 
   for (int i = 0; i < muestras; i++) {
     int sinal = analogRead(Mic);
     media = media + sinal;

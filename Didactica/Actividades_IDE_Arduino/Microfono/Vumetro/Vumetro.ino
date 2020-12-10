@@ -20,7 +20,8 @@ void setup()
   {
     pinMode(ledPins[i], OUTPUT);
   }
-  Serial.begin(9600);
+  //Serial.begin(9600);
+  analogReference(INTERNAL); // cambiamos la referencia analógica a 1.1V
 }
 
 void loop()
@@ -28,7 +29,7 @@ void loop()
 
 
   int sinal = analogRead(Mic); //Captura el valor analógico del micrófono
-  Serial.println(sinal);
+  //Serial.println(sinal);
   // Comprueba que no nos pasamos de V_Max
   if (sinal > V_Max) {
     sinal = V_Max;

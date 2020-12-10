@@ -34,6 +34,7 @@ int inputPin = A7;
 void setup() {
   // initialize serial communication with computer:
   Serial.begin(9600);
+  analogReference(INTERNAL); // cambiamos la referencia analógica a 1.1V
   // initialize all the readings to 0:
   for (int thisReading = 0; thisReading < numReadings; thisReading++) {
     readings[thisReading] = 0;

@@ -29,3 +29,5 @@ Relación de actividades realizadas con el IDE de Arduino y las placas EchidnaSh
 
 ## [14. MkMk](https://github.com/EchidnaShield/Recursos/blob/master/Didactica/Actividades_IDE_Arduino/MkMk/README.MD)
 
+## [15. OLED](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades_IDE_Arduino/OLED/README.MD)
+

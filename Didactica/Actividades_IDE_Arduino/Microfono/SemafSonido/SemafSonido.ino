@@ -19,7 +19,7 @@
 
 
 int V_Max = 20; // Valor máximo a comparar
-int V_Min = 10; // Valor mínimo a comparar
+int V_Min = 2; // Valor mínimo a comparar
 
 int muestras = 128; // Numero de valores para hacer la media
 
@@ -31,7 +31,7 @@ void setup()
   pinMode (L_Red, OUTPUT);
   pinMode (L_Orn, OUTPUT);
   pinMode (L_Gre, OUTPUT);
-   analogReference(INTERNAL); // cambiamos la referencia analógica a 1.1V
+  analogReference(INTERNAL); // cambiamos la referencia analógica a 1.1V
 }
 
 void loop()

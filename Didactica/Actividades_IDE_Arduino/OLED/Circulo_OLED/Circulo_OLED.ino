@@ -64,7 +64,7 @@ void loop () {
   Serial.print ("\t");
   Serial.println (MedidaY);
 
-
+  //************** Mapea los valores a los limites de la pantalla ******
   PosX = map( MedidaX, VXmin, VXmax, 0 , 128 );
   PosY = map( MedidaY, VYmin, VYmax, 64 , 0 );
 

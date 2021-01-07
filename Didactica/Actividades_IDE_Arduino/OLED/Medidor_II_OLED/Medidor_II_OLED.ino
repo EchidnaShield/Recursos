@@ -4,11 +4,12 @@
 #include "config_S.h" // Definición de todolos recursos de Echidna Shield "S",  White "W" ou Black "B"
 
 #include <OLED_I2C.h> //Copyright (C)2015-2019 Rinky-Dink Electronics, Henning Karlsen.CC BY-NC-SA 3.0 license.
-OLED  myOLED(4, A4);  //establece os pines de comunicacións I2C OLED
+OLED  myOLED(SDA, SCL);// inicializamos os pines de comunicacións I2C OLED
+//OLED  myOLED(4, A4);  //establece os pines de comunicacións I2C OLED
 
 //******** Establece a entrada de sinal a medir *******
 
-#define Entrada Joy_X
+#define Entrada A5
 //*****************************************************
 
 

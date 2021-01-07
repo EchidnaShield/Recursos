@@ -46,6 +46,8 @@ void setup()
 
   Serial.begin(9600);         // Inicializa a comunicación serie
 
+  pinMode(EntradaX, INPUT);
+
   //analogReference(INTERNAL);    // Cambia a referencia do conversor analoxico - dixital
 
   //https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/

@@ -3,10 +3,12 @@
  * configW.h xdesig 2020
  */
 
+OLED  myOLED(7, A4); //Establece los pines de comunicación I2C OLED
+
 //*** Salidas ***
 #define L_Red 13      //Led rojo
-#define L_Orn 12  //Led naranja
-#define L_Gre 11   //Led verde
+#define L_Orn 12      //Led naranja
+#define L_Gre 11      //Led verde
 
 #define RGB_R 9      //Led RGB rojo
 #define RGB_G 5      //Led RGB verde

@@ -1,6 +1,3 @@
-
-// 'echidna_logo_114_64', 114x64px
-
     #include <avr/pgmspace.h>
 
 //const uint8_t echidnaLogo [] PROGMEM={

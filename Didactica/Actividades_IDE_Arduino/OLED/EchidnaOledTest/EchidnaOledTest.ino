@@ -1,11 +1,11 @@
 // Xabier Rosas 2020-2021 para Echidna
 // Test sensores EchidnaBlack en pantalla OLED SSD1306 128 X 64//
 
+#include <OLED_I2C.h> //Copyright (C)2015-2019 Rinky-Dink Electronics, Henning Karlsen.CC BY-NC-SA 3.0 license.
+//En cada Config_ establece os pins de comunicacións I2C OLED
+
 #include "config_B.h" // Definición de todolos recursos de Echidna Shield "S",  White "W" ou Black "B"
 // Ollo os recursos de EchidnaShield son menores que os da Black ou White
-
-#include <OLED_I2C.h> //Copyright (C)2015-2019 Rinky-Dink Electronics, Henning Karlsen.CC BY-NC-SA 3.0 license.
-OLED  myOLED(4, A4); //establece os pines de comunicacións I2C OLED
 
 // Fontes de textos e numeros
 extern uint8_t TinyFont[];
@@ -13,13 +13,13 @@ extern uint8_t SmallFont[];
 extern uint8_t MediumNumbers[];
 extern uint8_t echidnaLogo[];
 
-int Temperaturas[127];  //Matriz para gardar as temperaturas
+int Temperaturas[128];  //Matriz para gardar as temperaturas
 
 
 
 //Tempo de captura de temperatura grafica (segundos)
 // 1 pixel cada 10 segundos
-float const Periodo = 10;
+float const Periodo = 0.1;
 
 
 //****** Variables ********************
@@ -33,6 +33,7 @@ int temperatura;
 float Valor;
 int i;
 int x;
+int n = 17; //Contador dos primeiros 128-17 puntos da grafica de temperatura
 
 
 void setup() {
@@ -67,7 +68,7 @@ void setup() {
   INI();
   myOLED.update();   // Presenta a informacion no visualizador
 
-  //************** Encjhe a matriz co valor 64 ********************
+  //************** Enche a matriz co valor 64 ********************
   while (digitalRead(SR) == 0) {}
   for (i = 0; i < 127; i++) {
     Temperaturas[i] = 64;
@@ -231,7 +232,7 @@ void GTemp() {
   myOLED.print("30", LEFT, 30);
   myOLED.print("20", LEFT, 40);
   myOLED.print("10", LEFT, 50);
-  myOLED.print("10s/Px Punt..10Px", CENTER, 55);
+  myOLED.print("0.1s/Px Punt.10Px", CENTER, 55);
 
   // debuxa os puntos da escala
   for (x = 127; x > 10; x = x - 10) {
@@ -240,10 +241,16 @@ void GTemp() {
     myOLED.setPixel (x, 32);
     myOLED.setPixel (x, 21);
   }
+
+  // Pasa os os 128 valores almacenados a memoria do OLED
+  for (i = 0; i < 127; i++) {
+    myOLED.setPixel (i, Temperaturas[i]);
+  }
+
   // cambia a referencia analoxica a 1.1V
   analogReference(INTERNAL);
 
-  //Realiza unha media de 40 valores para eviar cambos bruscos na grafica
+  //Realiza unha media de 40 valores para eviar cambios bruscos na grafica
   media = 0;
   for (i = 0; i < 40; i++) {
     lectura = analogRead(LM35); // 10mV * ºC
@@ -260,19 +267,20 @@ void GTemp() {
   temperatura = map(temperatura, 0, 60, 63, 0 );
 
   // Le a temperatura cada periodo establecido, alamcenando
-  // nunha matriz para representalo de esquerda a dereita.
+  // nunha matriz para representalo primeiro de derereita a esquerda
+  // e cando encha a pantalla, n=127 de esquerda a dereita.
   if (millis() - TempoAct >= (Periodo * 1000)) {
-    Temperaturas[127] = temperatura;
-
-    for (i = 0; i < 127; i++) {
-      Temperaturas[i] = Temperaturas[i + 1];
-    }
     TempoAct = millis();
-  }
-
-  // Pasa os os 128 valores almacenados a memoria do OLED
-  for (i = 0; i < 127; i++) {
-    myOLED.setPixel (i, Temperaturas[i]);
+    Temperaturas[n] = temperatura;
+    
+    if (n < 127) {
+      n = n + 1;
+    }
+    else  {
+      for (i = 0; i < 127; i++) {
+        Temperaturas[i] = Temperaturas[i + 1];
+      }
+    }
   }
 }
 
@@ -290,7 +298,7 @@ void Acel() {
 
 
   // Mapea a lectura a -+ 90º de inclinación
-  int lecAcel_Xm = map (lecAcel_X, 289, 436, -90, +90);
+  int lecAcel_Xm = map (lecAcel_X, 289, 436, +90, -90);
   int lecAcel_Ym = map (lecAcel_Y, 280, 420, -90, +90);
 
   // Presenta os datos de inclinación
@@ -306,7 +314,7 @@ void Acel() {
   myOLED.drawLine(centrX, 2, centrX, 63);
 
   // Mapea a lectura a +-30 para debuxala bola na circunfencia
-  lecAcel_X = map (lecAcel_X, 289, 436, -30, +30);
+  lecAcel_X = map (lecAcel_X, 289, 436, 30, -30);
   lecAcel_Y = map (lecAcel_Y, 280, 420, -30, +30);
 
   myOLED.drawCircle(centrX + lecAcel_X, centrY + lecAcel_Y, 2);
@@ -345,7 +353,7 @@ void basicos() {
   myOLED.setFont(SmallFont);
   myOLED.print("ECHIDNA ", LEFT, 0);
   myOLED.print("BLACK", RIGHT, 0);
-  myOLED.printNumI(menu, RIGHT, 54);
+  //myOLED.printNumI(menu, RIGHT, 54);
 }
 
 

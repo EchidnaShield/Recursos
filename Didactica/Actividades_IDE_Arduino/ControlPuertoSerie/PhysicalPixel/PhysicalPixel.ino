@@ -1,6 +1,6 @@
 /*
-  Physical Pixel
-
+  Modificación del programa Physical Pixel
+  Se ha añadido el control de los 3 pines del LED RGB
   An example of using the Arduino board to receive data from the computer. In
   this case, the Arduino boards turns on an LED when it receives the character
   'H', and turns off the LED when it receives the character 'L'.

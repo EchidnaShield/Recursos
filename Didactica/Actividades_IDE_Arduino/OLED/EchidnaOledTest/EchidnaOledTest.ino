@@ -30,6 +30,7 @@ int centrY = 32;
 int lectura;
 float media;
 int temperatura;
+int temperaturaM; //Temperatura mapeada
 float Valor;
 int i;
 int x;
@@ -264,15 +265,15 @@ void GTemp() {
   myOLED.printNumI(temperatura, CENTER, 10);
 
   // Mapea a medida
-  temperatura = map(temperatura, 0, 60, 63, 0 );
+  temperaturaM = map(temperatura, 0, 60, 63, 0 );
 
   // Le a temperatura cada periodo establecido, alamcenando
   // nunha matriz para representalo primeiro de derereita a esquerda
   // e cando encha a pantalla, n=127 de esquerda a dereita.
   if (millis() - TempoAct >= (Periodo * 1000)) {
     TempoAct = millis();
-    Temperaturas[n] = temperatura;
-    
+    Temperaturas[n] = temperaturaM;
+    Serial.println (temperatura);
     if (n < 127) {
       n = n + 1;
     }

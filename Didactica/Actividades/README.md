@@ -16,4 +16,5 @@ Cada Actividad contiene:
 8. [Colores RGB](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/08_ColoresRGB)
 9. [Acelerometro](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/09_Acelerometro)
 10. [Robots](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/10_Robots)
+11. [AppInventor](https://github.com/EchidnaShield/Recursos/tree/master/Didactica/Actividades/11_AppInventor)
 

@@ -8,6 +8,7 @@
 //******** Establece a entrada de sinal a medir *******
 
 #define Entrada A5
+
 //*****************************************************
 
 

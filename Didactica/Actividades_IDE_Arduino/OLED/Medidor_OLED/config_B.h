@@ -3,6 +3,8 @@
  * config_B.h xdesig 2020
  */
 
+OLED  myOLED(7, A4); //Establece los pines de comunicación I2C OLED
+
 //*** Salidas ***
 #define L_Red 13      //Led rojo
 #define L_Orn 12      //Led naranja
@@ -19,10 +21,10 @@
 //*** Entradas ***
 #define IN4 A4      //Entrada analógica, salida digital
 
-#define IO1 7       //Entrada/salida digital 1
-#define IO2 14      //Entrada/salida digital 2
-#define IO3 15      //Entrada/salida digital 3
-#define IO3 16      //Entrada/salida digital 4
+#define IO1 4       //Entrada/salida digital 1
+#define IO2 7      //Entrada/salida digital 2
+#define IO3 8      //Entrada/salida digital 3
+
 
 #define Joy_X A0     //Entrada analógica conectada al joystick X
 #define Joy_Y A1     //Entrada analógica conectada al joystick Y

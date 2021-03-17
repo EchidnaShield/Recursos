@@ -1,13 +1,9 @@
 // Xabier rosas
 // Medidor analoxico de agulla en pantalla OLED 128 x 64
+#include <OLED_I2C.h> //Copyright (C)2015-2019 Rinky-Dink Electronics, Henning Karlsen.CC BY-NC-SA 3.0 license.
+
 
 #include "config_B.h" // Definición de todolos recursos de Echidna Shield "S",  White "W" ou Black "B"
-
-#include <OLED_I2C.h> //Copyright (C)2015-2019 Rinky-Dink Electronics, Henning Karlsen.CC BY-NC-SA 3.0 license.
-OLED  myOLED(4, A4);// inicializamos os pines de comunicacións I2C OLED
-//OLED  myOLED(SDA, SCL);// inicializamos os pines de comunicacións I2C OLED
-//OLED  myOLED(2, 3);// inicializamos os pines de comunicacións I2C OLED
-
 // Fontes de textos e numeros
 extern uint8_t TinyFont[];
 extern uint8_t SmallFont[];

@@ -4,6 +4,7 @@
 
 
 #include "config_B.h" // Definición de todolos recursos de Echidna Shield "S",  White "W" ou Black "B"
+
 // Fontes de textos e numeros
 extern uint8_t TinyFont[];
 extern uint8_t SmallFont[];
@@ -11,7 +12,7 @@ extern uint8_t MediumNumbers[];
 extern uint8_t BigNumbers[];
 
 
-// modificando os seguintes paramtros podese cambiar de posicion e de tamaño a reprentación analoxica.
+// Modificando os seguintes parámetros podese cambiar de posicion e de tamaño da reprentación analoxica.
 
 int radio = 62;     //radio da semicircunferencia do cuadrante (valor clave). Por defecto 62
 int radiop = 27;    //radio da semicircunferencia pequena onde se presentan o dato numerico. Por defecto 27
@@ -68,7 +69,7 @@ void loop () {
   //************** Pinta a medida no centro inferior do visualizador ***********************
 
   myOLED.setFont(MediumNumbers);
-  myOLED.printNumI(medida, CENTER, Ycentro - 14); // Imprime o valor da entrada analogica
+  myOLED.printNumI(medida,Xcentro-16 , Ycentro - 14); // Imprime o valor da entrada analogica
 
 
   //************** Debuxa os circulos do cuadrante ***********************
@@ -134,6 +135,6 @@ void Pint_valores() {
 
 void Pint_text() {
   myOLED.setFont(TinyFont);         // Fonte pequena
-  myOLED.print("Cervus", LEFT, 0);
-  myOLED.print("Shield", RIGHT, 0);
+  myOLED.print("Echidna", LEFT, 0);
+  myOLED.print("STEAM", RIGHT, 0);
 }

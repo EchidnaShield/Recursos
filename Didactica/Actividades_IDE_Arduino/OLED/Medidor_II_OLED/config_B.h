@@ -2,6 +2,7 @@
  * Configuracion de entadas salidas para EhidnaBlack
  * config_B.h xdesig 2020
  */
+OLED  myOLED(4, A4);// inicializamos os pines de comunicacións I2C OLED
 
 //*** Salidas ***
 #define L_Red 13      //Led rojo

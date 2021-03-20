@@ -1,16 +1,16 @@
 /* 
  *  Medida de distancias de 10 a 80cm,  mediante Sharp 0A41SK, la respuesta no es lineal
- *  Tenemos que modelizar la longitud medida usando la libreria de Giuseppe Masino "qub1750ul"
+ *  Tenemos que modelizar la longitud medida usando la librería de Giuseppe Masino "qub1750ul"
  *  https://github.com/qub1750ul/Arduino_SharpIR
  *  conectado a la entrada/salida IN "A4"
  *  XDeSIG 2020
  */
 
-#include "config_S.h" // Definición de todos los recursos de Echidna Shield "S" o White "W"
+#include "config_B.h" // Definición de todos los recursos de Echidna Shield "S" o Black "B"
 
-#include <SharpIR.h> // Importamos la libreira de modelización de medida 
+#include <SharpIR.h> // Importamos la librería de modelización de medida 
 
-// crea una nueva instancia llamando a la libreira y asignando sensor al modelo GP2Y0A41SK0F conectado en la entrada IN
+// crea una nueva instancia llamando a la librería y asignando sensor al modelo GP2Y0A41SK0F conectado en la entrada IN
 SharpIR sensor( SharpIR::GP2Y0A41SK0F, IN );
 
 void setup() {
@@ -20,7 +20,7 @@ void setup() {
 
 void loop() {
   
-  int cm=distancia(20); //LLamada a la función de lectura de distancia con 20 interacciones
+  int cm=distancia(20); //Llamada a la función de lectura de distancia con 20 interacciones
   
   Serial.print("Distancia: ");
   Serial.print(cm);

@@ -18,7 +18,7 @@ void setup() {
 }
 
 void loop() {
-  for (int i = 0; i < 6; i++) {
+  for (i = 0; i < 6; i++) {
     V_MkMk[i] = analogRead(entrada[i]);
     }
     V_MkMk[6] = digitalRead(entrada[6]);

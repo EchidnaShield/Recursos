@@ -4,6 +4,7 @@
 int entrada[] = {A0, A1, A2, A3, A4, A5, 2, 3} ; //Entradas
 int V_MkMk[8];
 int n = 5;
+int i = 0;
 
 void setup() {
   for (int i = 0; i < 8; i++)
@@ -19,9 +20,10 @@ void setup() {
 void loop() {
   for (int i = 0; i < 6; i++) {
     V_MkMk[i] = analogRead(entrada[i]);
-    V_MkMk[i + 1] = digitalRead(entrada[i + 1]);
-    V_MkMk[i + 2] = digitalRead(entrada[i + 2]);
-  }
+    }
+    V_MkMk[6] = digitalRead(entrada[6]);
+    V_MkMk[7] = digitalRead(entrada[7]);
+    
   if (n == 5) {
     n = 0;
     Serial.println();   //Linea de separacion

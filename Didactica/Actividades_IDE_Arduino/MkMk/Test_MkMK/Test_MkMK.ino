@@ -5,7 +5,7 @@
 int entrada[] = {A0, A1, A2, A3, A4, A5, 2, 3} ; //Entradas
 
 //char *texto[] = {"A0", "A1", "A2", "A3", "A4", "A5", "D2", "D3"} ; // texto a representar para cada entrada
-char* texto[] = {"Mk1", "Mk2", "Mk3", "Mk4", "Mk5", "Mk6", "Mk7", "Mk8"} ; // texto a representar para cada entrada
+char *texto[] = {"Mk1", "Mk2", "Mk3", "Mk4", "Mk5", "Mk6", "Mk7", "Mk8"} ; // texto a representar para cada entrada
 int V_MkMk[8];
 int n = 5;
 int i = 0;

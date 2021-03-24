@@ -32,7 +32,7 @@ void loop() {
 // Enviamos (serie) el "texto" de las entradas, solo cada cinco lecturas.
   if (n == 5) {
     n = 0;                        //Borramos el contador de lecturas
-    Serial.println();             //Una linea de separación cada cinco lecturas
+    Serial.println();             //Una línea de separación cada cinco lecturas
     
     for (i = 0; i < 8; i++) {
       Serial.print(texto[i]);

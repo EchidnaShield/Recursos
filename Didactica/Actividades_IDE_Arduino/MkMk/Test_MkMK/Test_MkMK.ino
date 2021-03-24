@@ -7,7 +7,7 @@ int n = 5;
 int i = 0;
 
 void setup() {
-  for (int i = 0; i < 8; i++)
+  for (i = 0; i < 8; i++)
   {
     //Las entradas se definen por defecto, pero es una buena costumbre definir antes todo.
     

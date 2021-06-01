@@ -17,7 +17,7 @@
 
 
 //*** Entradas ***
-#define IN4 A4      //Entrada analógica, salida digital
+#define IN A4      //Entrada analógica, salida digital
 
 #define IO1 7       //Entrada/salida digital 1
 #define IO2 14      //Entrada/salida digital 2
@@ -38,5 +38,3 @@
 
 #define SR 2       //Entrada digital conectada al pulsador SR
 #define SL 3       //Entrada digital conectada al pulsador SL
-
-

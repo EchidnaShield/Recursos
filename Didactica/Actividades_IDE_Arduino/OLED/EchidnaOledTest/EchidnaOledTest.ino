@@ -267,7 +267,7 @@ void GTemp() {
   // Mapea a medida
   temperaturaM = map(temperatura, 0, 60, 63, 0 );
 
-  // Le a temperatura cada periodo establecido, alamcenando
+  // Le a temperatura cada periodo establecido, almacenando
   // nunha matriz para representalo primeiro de derereita a esquerda
   // e cando encha a pantalla, n=127 de esquerda a dereita.
   if (millis() - TempoAct >= (Periodo * 1000)) {
@@ -285,7 +285,7 @@ void GTemp() {
   }
 }
 
-//****** Rutina de representacion da inclinación  ******
+//****** Rutina de representacion da inclinacion  ******
 // recollida polo acelerometro X-Y
 void Acel() {
   // Cambia a cor do RGB
@@ -294,13 +294,13 @@ void Acel() {
   analogReference(DEFAULT);
 
   // Recolle a lectura do acelerometro X-Y
-  int lecAcel_X = analogRead(Ace_X); //289, 436
-  int lecAcel_Y = analogRead(Ace_Y); //280, 420
+  int lecAcel_X = analogRead(Ace_X); //288, 436
+  int lecAcel_Y = analogRead(Ace_Y); //286, 432
 
 
   // Mapea a lectura a -+ 90º de inclinación
-  int lecAcel_Xm = map (lecAcel_X, 289, 436, +90, -90);
-  int lecAcel_Ym = map (lecAcel_Y, 280, 420, -90, +90);
+  int lecAcel_Xm = map (lecAcel_X, 288, 436, +90, -90);
+  int lecAcel_Ym = map (lecAcel_Y, 286, 432, -90, +90);
 
   // Presenta os datos de inclinación
   myOLED.print("Ac X", LEFT, 22);
@@ -315,8 +315,8 @@ void Acel() {
   myOLED.drawLine(centrX, 2, centrX, 63);
 
   // Mapea a lectura a +-30 para debuxala bola na circunfencia
-  lecAcel_X = map (lecAcel_X, 289, 436, 30, -30);
-  lecAcel_Y = map (lecAcel_Y, 280, 420, -30, +30);
+  lecAcel_X = map (lecAcel_X, 288, 436, 30, -30);
+  lecAcel_Y = map (lecAcel_Y, 286, 432, -30, +30);
 
   myOLED.drawCircle(centrX + lecAcel_X, centrY + lecAcel_Y, 2);
 }
@@ -353,7 +353,7 @@ void Micro() {
 void basicos() {
   myOLED.setFont(SmallFont);
   myOLED.print("ECHIDNA ", LEFT, 0);
-  myOLED.print("BLACK", RIGHT, 0);
+  myOLED.print("STEAM", RIGHT, 0);
   //myOLED.printNumI(menu, RIGHT, 54);
 }
 

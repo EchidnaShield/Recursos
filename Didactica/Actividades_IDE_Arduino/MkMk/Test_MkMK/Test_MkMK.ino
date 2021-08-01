@@ -31,7 +31,7 @@ void loop() {
     V_MkMk[i] = digitalRead(entrada[i]);
 
    digitalWrite (Buzz,V_MkMk[i]);
-   delay(100);
+   delay(10);
    }
 
 // Enviamos (serie) el "texto" de las entradas, solo cada cinco lecturas.

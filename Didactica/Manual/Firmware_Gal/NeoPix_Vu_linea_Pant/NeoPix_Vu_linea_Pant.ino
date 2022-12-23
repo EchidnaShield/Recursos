@@ -12,18 +12,18 @@ word Fil = 5;   //Filas
 int NUM_LEDS = Col * Fil;
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUM_LEDS, PIN_NEO, NEO_GRB + NEO_KHZ800);
 
-#define MIC 78    // Entrada de Audio (Microfono)
+#define MIC 7    // Entrada de Audio (Microfono)
 #define SR 2    // Pulsador para subir a amplificacion
 #define SL 3    // Pulsador para bajar a amplificacion
 
-int Amp = 35;     // Valor amplificacion
+int Amp = 25;     // Valor amplificacion
 int Son;      // Volume de audio
 int A;      // Amplitude en leds
 
 int Y;  // Variable de resultados (eixo Y) mapeados para mostrar na pantalla
 int X;      // variable para recorer o eixo x
 int Pix;      // Variable de pixel a mostrar (pix = x + y*5)
-int Retardo = 10;   // Retardo en milisegundos entre ciclos 
+int Retardo = 1;   // Retardo en milisegundos entre ciclos 
 
 int Red;      // Variable da cor vermella
 int Gre;      // Variable da cor verde
@@ -36,9 +36,7 @@ void setup() {
   pixels.begin();     // Inicializamos os NeoPixeles
 }
 void loop() {
- Red = random (32); //eliximos as cores de cada Ciclo “colores o chou”
- Gre = random (32);
- Blu = random (16);
+
  for (X = 0; X < Col; X++) {    // Percorremos a pantalla no eixo X
  // Lemos a entrada de son e a multiplicamos por Amp
  Son = (analogRead(MIC) * Amp); 
@@ -48,6 +46,9 @@ void loop() {
 // Mapeamos os valores de amplitude (filas) e os invertemos 
 // para iluminalos dende abaixo arriba
  A = map(Son, 0, 1023, Fil, 0);  
+ Red = random (16,32); //eliximos as cores de cada Ciclo “colores o chou”
+ Gre = random (4,32);
+ Blu = random (4,32);
 
  for (Y = Fil; Y >= A ; Y--) {  // Acendemos os NeoPixeles Verticais
  Pix = X + Y * Col; // Pasamos as coordenadas X e Y a linea de pixeles

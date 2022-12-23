@@ -4,11 +4,11 @@
 
 #include <Adafruit_NeoPixel.h> //librería
 #define PIN A4  //Pin onde se conecta a tira de NeoPixeles
-#define NUM_LEDS 10 //Numero de pixeles
+#define NUM_LEDS 300 //Numero de pixeles
 #define Mic A7   //Entrada conectada o micrófono
 
 int Son = 0;   //Variable de lectura do son
-word amp = 35;   //factor de amplificación
+word amp = 150;//35;   //factor de amplificación
 int A = 0;         //Variable de amplituse do son.
 
 word mostras = 20; //numero de mostras (máx. 255)

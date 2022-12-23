@@ -3,7 +3,7 @@
   para acender un led (activar unha saída)
 */
 #define L_Gre 11 // pin do LED verde -> D11
-#define Temp A6  // Pin do LM35 -> A6
+#define LM35 A6  // Pin do LM35 -> A6
 
 int Consigna = 27; //Temperatura elixida ºC
 //diferencia en grados sobre activación e desactivación
@@ -16,12 +16,12 @@ char *Estado = "Desactivado"; //cadea de texto do estado
 void setup() {
   analogReference(INTERNAL); //referencia analóxica a 1.1V
   Serial.begin(9600); //config. porto serie
-  pinMode (Temp, INPUT); //pin LM35 como entrada
+  pinMode (LM35, INPUT); //pin LM35 como entrada
   pinMode (L_Gre, OUTPUT); //saída para LED
   digitalWrite (L_Gre, LOW); //apaga o LED, estado inicial
 }
 void loop() {
-  int lectura = analogRead(Temp); //devolta un valor entre 0 y 1023
+  int lectura = analogRead(LM35); //devolta un valor entre 0 y 1023
 
   //temperatura en º Celsius
   temperatura = (lectura * 1.1 * 100.0) / 1024.0;

@@ -15,7 +15,7 @@ char re[128], im[128]; // Matrices de mostras / resultados da FFT
 byte i; // índice
 int dat; // variable da amplitude da frecuencia
 int F[5] = {2, 3, 6, 9, 15}; // Frecuencias a mostrar en pantalla *73,8Hz
-#define MIC A7   // Entrada de Audio (Micrófono)
+#define MIC A8   // Entrada de Audio (Micrófono)
 int amp = 25;   // Valor amplificación
 int Y;  // Variable de resultados (eixo Y) mapeados para mostrar na pantalla
 int X;  // variable para recorer o eixo x

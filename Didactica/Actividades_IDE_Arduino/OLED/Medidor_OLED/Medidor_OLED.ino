@@ -57,7 +57,7 @@ void setup()
 
   //Serial.begin(9600);
 
-  //analogReference(INTERNAL);
+  analogReference(INTERNAL);
 
 
 }

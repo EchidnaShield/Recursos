@@ -4,6 +4,7 @@
  */
 
 OLED  myOLED(4, A4); //Establece los pines de comunicación I2C OLED
+//OLED  myOLED(SDA, SCL);
 
 //*** Salidas ***
 #define L_Red 13      //Led rojo

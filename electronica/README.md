@@ -6,7 +6,7 @@
 
 ## EchidnaBlack
 [Esquemas electrónicos...](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Black)
-## EchidnaBlack
+## EchidnaBlack2C
 [Esquemas electrónicos...](https://github.com/EchidnaShield/Recursos/tree/master/electronica/Black2C)
 
 ## Fritzing
